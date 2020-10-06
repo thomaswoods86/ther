@@ -1686,12 +1686,20 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
 }
 
 @media (min-width: 768px) {
   .education__wrap {
     max-width: 1150px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -1710,13 +1718,14 @@ button {
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .education__title {
     font-size: 3.5rem;
+    margin-bottom: 60px;
   }
 }
 

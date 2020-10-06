@@ -6,10 +6,12 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     position: relative;
     
     @include bp(medium) {
       max-width: $max-width-l;
+      flex-direction: row;
     }
   }
 
@@ -28,11 +30,12 @@
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
-    @include bp(medium) {
-    font-size: 3.5rem;
     
+    @include bp(medium) {
+      font-size: 3.5rem;
+      margin-bottom: 60px;
     }
   }
 
