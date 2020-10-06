@@ -54,8 +54,8 @@
 
   &__avatar {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     background-color: $teal;
     border-radius: 100%;
     background-image: url("https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
@@ -64,6 +64,11 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     z-index: 5;
+
+    @include bp(medium) {
+      width: 300px;
+    height: 300px;
+    }
   }
 
 //  &__bg {
@@ -86,13 +91,17 @@
   }
 
   &__title {
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    // border-left: 3px solid $bright-teal;
     margin-bottom: 30px;
+    text-align: center;
+    
+    @include bp(medium){
+      font-size: 3.5rem;
+    }
   }
 
   &__headline {
