@@ -1,0 +1,119 @@
+.education {
+  position: relative;
+  padding: $layer-padding;
+
+  &__wrap {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    
+    @include bp(medium) {
+      max-width: $max-width-l;
+    }
+  }
+
+  &__copy {
+    width: 100%;
+  }
+
+  &__copy--content {
+    margin: 0 10%;
+    position: relative;
+  }
+
+  &__title {
+    font-size: 2rem;
+    color: $night;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    margin-bottom: 60px;
+    text-align: center;
+    @include bp(medium) {
+    font-size: 3.5rem;
+    
+    }
+  }
+
+  &__headline {
+    font-size: 2.5rem;
+    color: $night;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    // text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__subtext {
+    font-size: 1.1rem;
+    color: $night;
+    margin-bottom: 30px;
+  }
+
+ ul {
+    li {
+      list-style-type: none;
+      margin-bottom: 20px;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top:-2px;
+        left: -35px;
+        background-image: url('/img/ui-award-1.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+
+  &.right {
+    .education__wrap {
+
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+  &.teal {
+    background-color: $teal;
+
+    .education__headline,
+    .education__subtext {
+      color: $white;
+    }
+  }
+
+  &.night {
+    background-color: $night;
+
+    .education__headline,
+    .education__subtext {
+      color: $white;
+    }
+  }
+
+  &.white {
+    background-color: $white;
+
+    .education__headline,
+    .education__subtext {
+      color: $night;
+    }
+  }
+
+  &.black {
+    background-color: $black;
+
+    .education__headline,
+    .education__subtext {
+      color: $white;
+    }
+  }
+}

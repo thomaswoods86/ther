@@ -1,0 +1,141 @@
+.icon-launchpad {
+  position: relative;
+  padding: 0px 0;
+  font-family: $sans;
+
+  &__wrap {
+
+    max-width: 100%;
+    margin: 0 auto 80px;
+    
+    @include bp(medium) {
+    display: block;
+    max-width: 900px;
+    padding: 0;
+    margin: 0 auto 80px;
+  }
+}
+
+  &__item {
+    width: 40%;
+    margin: 0 20px 40px;
+    position: relative;
+    transition: all .25s;
+    cursor: default;
+    border-radius: 20px;
+    display: inline-block;
+    
+    @include bp(medium) {
+      width: 28%;
+      margin: 0 20px 40px;
+      position: relative;
+      transition: all .25s;
+      cursor: default;
+      border-radius: 20px;
+      display: inline-block;
+
+    &:hover .icon-launchpad__icon {
+      transform: rotate(-11.25deg);
+    }
+  }
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    color: $night;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &__headline {
+    font-size: 1.275rem;
+    color: $night;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  &__icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    background-color: $bright-teal;
+    background-size: 30px;
+    transition: .25s;
+    
+    &.consulting {
+      background-image: url('/img/ui-person--white.svg');
+    }
+    &.coaching {
+      background-image: url('/img/ui-chart--white.svg');
+    }
+    &.curriculum-development {
+      background-image: url('/img/ui-apple--white.svg');
+    }
+    &.technology-training {
+      background-image: url('/img/ui-computer--white.svg');
+    }
+    &.assessment {
+      background-image: url('/img/ui-test--white.svg');
+    }
+    &.professional-learning {
+      background-image: url('/img/ui-open-book--white.svg');
+    }
+  }
+
+  // .icon-launchpad__item:hover .consulting {
+  //   background-image: url('/img/ui-person--white.svg');
+  // }
+  // .icon-launchpad__item:hover .coaching {
+  //   background-image: url('/img/ui-chart.svg');
+  // }
+  // .icon-launchpad__item:hover .curriculum-development {
+  //   background-image: url('/img/ui-apple.svg');
+  // }
+  // .icon-launchpad__item:hover .technology-training {
+  //   background-image: url('/img/ui-computer.svg');
+  // }
+  // .icon-launchpad__item:hover .assessment {
+  //   background-image: url('/img/ui-test.svg');
+  // }
+  // .icon-launchpad__item:hover .professional-learning {
+  //   background-image: url('/img/ui-open-book.svg');
+  // }
+
+
+  .icon-launchpad__item:hover .icon-launchpad__icon {
+      // background-color: lighten($night, 10) !important;
+      background-color: $bright-teal !important;
+    }
+
+  &.grey-night {
+    background-color: $grey;
+
+    .icon-launchpad__headline {
+      color: $night;
+    }
+    .icon-launchpad__icon {
+      background-color: $bright-teal;
+    }
+  }
+
+  &.white-night {
+    background-color: $white;
+
+    .icon-launchpad__headline {
+      color: $night;
+    }
+    .icon-launchpad__icon {
+      background-color: $night;
+    }
+  }
+}

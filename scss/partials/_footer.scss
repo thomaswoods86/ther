@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  padding: 60px 0 40px;
+  border-top: px darken($night, 20) solid;
+
+  &__wrap {
+    max-width: $max-width-l;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+
+  &__text {
+    color: $white;
+    font-size: .875rem;
+    cursor: default;
+  }
+
+  &.teal {
+    background-color: $teal;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+
+  &.night {
+    background-color: $night;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+
+  &.white {
+    background-color: $white;
+    margin: 40px 0;
+
+    .footer__text {
+      color: $night;
+    }
+  }
+
+  &.black {
+    background-color: $black;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.mma {
+  position: relative;
+  padding: 60px 0;
+  /* Books */
+  background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  /* Kids */
+  // background-image: url("https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
+  /* Books */
+  // background-image: url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+  @include bp(medium) {
+    padding: 140px 0;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($night, .85);
+    height: 100%;
+    width: 100%;
+  }
+  
+  &__wrap {
+    max-width: $max-width-l;
+    margin: 0 auto;
+    z-index: 1;
+
+    @include bp(medium) {
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -500px;
+      background-color: rgba($night, 1);
+      // background-image: url('/img/warp.jpg');
+      height: 900px;
+      width: 900px;
+      transform: rotate(-75deg);
+      // border-top: 4px solid $bright-teal;
+    }
+  }
+  }
+
+  &__copy {
+    position: relative;
+    
+    @include bp(medium) {
+      width: 45%;
+    }
+  }
+
+  &__headline {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    @include bp(medium) {
+      font-size: 4rem;
+      text-align: left;
+    }
+  }
+  
+  &__subtext {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  hr {
+    display: none;
+    @include bp(medium) {
+      display: block;
+      height: 3px;
+      background-color: $bright-teal;
+      border: none;
+      width: 18%;
+      margin-bottom: 15px;
+      transition: .5s;
+      border-radius: 100px;
+    }
+  }
+
+  .button {
+@extend .button;
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center; 
+    width: 40% !important;
+    @include bp(medium) {
+      display: inline-block !important;
+      margin: auto;
+      
+    }
+  }
+}

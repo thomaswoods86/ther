@@ -1,0 +1,167 @@
+.form {
+  position: relative;
+  padding: 90px 0 40px;
+  border-radius: 40px 40px 0 0;
+
+  &__wrap {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    
+    @include bp(medium) {
+      max-width: $max-width-l;
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__frame {
+    width: 100%;
+    position: relative;
+    
+    @include bp(medium) {
+      width: 50%;
+    }
+  }
+
+  &__copy {
+    width: 100%;
+    position: relative;
+    
+    @include bp(medium) {
+      width: 50%;
+    }
+  }
+
+  &__copy--content {
+margin-top: 20px;
+    @include bp(medium) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__headline {
+    font-size: 3.5rem;
+    color: $night;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    // border-left: 3px solid $bright-teal;
+    margin-bottom: 30px;
+  }
+
+  &__subtext {
+    margin-right: 30px;;
+    font-weight: 400;
+    color: $night;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: $night;
+  }
+
+  
+  #mc_embed_signup {
+    background-color: $white;
+    padding: 60px;
+    font-size: 14px;
+    border-radius: 20px;
+    
+    #mc-embedded-subscribe.button--black {
+      @extend .button;
+      width: auto !important;
+      color: $night;
+      border: 3px solid $night;
+      background-color: transparent;
+  
+      &:hover {
+        border: 3px solid $night;
+        background-color: $night;
+        color: $white;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 30px;
+      border: 0;
+      font-family: $sans;
+    }
+
+    .asterisk {
+      color: rgb(255, 0, 0);
+    }
+
+    #mce-MMERGE5 {
+      font-size: 16px;
+      background-color: rgb(236, 236, 236);
+      padding: 10px;
+      text-indent: 0;
+      resize: none;
+    }
+
+    #mce-EMAIL,
+    #mce-FNAME,
+    #mce-PNUM {
+      height: 20px;
+      background-color: rgb(236, 236, 236);
+      font-size: 16px;
+      padding: 20px;
+
+    }
+
+  }
+
+  &.teal {
+    background-color: $teal;
+
+    .form__headline,
+    .form__subtext {
+      color: $white;
+    }
+  }
+
+  &.night {
+    background-color: $night;
+
+    .form__headline,
+    .form__subtext {
+      color: $white;
+    }
+  }
+
+  &.white {
+    background-color: $white;
+    margin: 40px 0;
+
+    .form__headline,
+    .form__subtext {
+      color: $night;
+    }
+  }
+
+  &.black {
+    background-color: $black;
+
+    .form__headline,
+    .form__subtext {
+      color: $white;
+    }
+  }
+}

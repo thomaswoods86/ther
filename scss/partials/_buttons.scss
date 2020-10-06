@@ -1,0 +1,36 @@
+.button {
+  padding: 12px 35px;
+  border: 3px solid $bright-teal;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: .25s;
+  border-radius: 50px;
+  
+  &:hover {
+    background-color: $white;
+    border: 3px solid $white;
+    color: $black;
+  }
+  
+  &--white {
+    @extend .button;
+    border: 3px solid $white;
+  }
+  &--black {
+    @extend .button;
+    border: 3px solid $night;
+    color: $night;
+
+    &:hover {
+      background-color: $night;
+      border: 3px solid $night;
+      color: $white;
+    }
+  }
+}

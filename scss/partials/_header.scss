@@ -1,0 +1,116 @@
+.main-nav {
+  background-color: $black;
+  color: $white;
+  display: none;
+
+  @include bp(small) {
+    display: block;
+    width: 100%;
+    padding: 0px 0px;
+  }
+
+  @include bp(medium) {
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    padding: 30px 0px;
+  }
+
+  .wrap {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+
+    @include bp(medium) {
+      padding: 0px 40px;
+    }
+
+
+  }
+
+  .icons {
+    position: absolute;
+    width: 150px;
+    right: 0;
+
+    img {
+      width: 17px;
+      height: 17px;
+      padding: 0 5px;
+      transition: .25s;
+
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  ul {
+    display: none;
+
+    @include bp(medium) {
+      display: block;
+      list-style-type: none;
+      text-align: right;
+    }
+  }
+
+  li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 2%;
+  }
+
+  a {
+    text-decoration: none;
+    color: $white;
+    font-family: $sans3;
+    font-weight: 600;
+    font-size: .875em;
+    text-transform: uppercase;
+    transition: .25s;
+
+    &:hover {
+      color: $bright-teal;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.938);
+  z-index: 98;
+  display: none;
+
+  .links {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+    @include bp(small) {
+      left: 50%;
+      top: 30%;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 25px;
+      font-size: 1.5em;
+      text-decoration: none;
+      font-family: $sans3;
+      font-weight: 600;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
+
+.menu-toggle {
+  display: block;
+}
