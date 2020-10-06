@@ -1,6 +1,10 @@
 .map-spotlight {
   position: relative;
-  padding: $layer-padding;
+  padding: 40px 0 20px;
+
+  @include bp(medium) {
+    padding: 90px 0 40px;
+  }
 
   &__title {
     font-size: 2rem;
@@ -36,20 +40,32 @@
   &__content-wrap {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+
+    @include bp(medium) {
+      flex-direction: row;
+    }
   }
 
   &__copy--content {
-    margin: 20% 10%;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    @include bp(medium) {
+      margin: 20% 10%;
+    }
   }
 
   &__copy--item {
     text-align: center;
-    width: 50%;
-    padding: 50px 0;
+    padding: 20px 0 50px;
+    
+    @include bp(medium) {
+      width: 50%;
+      padding: 50px 0;
+    }
 
     a {
       font-size: 1.1rem;
@@ -158,11 +174,16 @@
 
     .phone,
     .email {
-      width: 50px;
-      height: 50px;
+      width: 30px;
+      height: 30px;
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
+      
+      @include bp(medium) {
+        width: 50px;
+        height: 50px;
+      }
     }
 
     .phone {
