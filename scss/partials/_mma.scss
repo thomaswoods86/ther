@@ -57,7 +57,7 @@
   }
 
   &__headline {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #fff;
     font-family: $sans;
     font-weight: 800;
@@ -65,6 +65,9 @@
     text-transform: uppercase;
     margin-bottom: 30px;
     text-align: center;
+    width: 80%;
+    margin: 0 auto 20px;
+    line-height: 1.1;
     
     @include bp(medium) {
       font-size: 4rem;
@@ -94,10 +97,11 @@
 
   .button {
 @extend .button;
-    display: block !important;
+
+    display: none !important;
     margin: 0 auto !important;
     text-align: center; 
-    width: 40% !important;
+    width: 41% !important;
     @include bp(medium) {
       display: inline-block !important;
       margin: auto;

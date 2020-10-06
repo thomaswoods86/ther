@@ -1262,7 +1262,7 @@ html {
 }
 
 .mma__headline {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   font-family: "Karla";
   font-weight: 800;
@@ -1270,6 +1270,9 @@ html {
   text-transform: uppercase;
   margin-bottom: 30px;
   text-align: center;
+  width: 80%;
+  margin: 0 auto 20px;
+  line-height: 1.1;
 }
 
 @media (min-width: 768px) {
@@ -1304,10 +1307,10 @@ html {
 }
 
 .mma .button--white, .mma .button--black, .mma .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .mma #mc-embedded-subscribe.button--black, .mma .launchpad.grey-night .launchpad__item .button, .launchpad.grey-night .launchpad__item .mma .button, .mma .launchpad.grey-white .launchpad__item .button, .launchpad.grey-white .launchpad__item .mma .button, .mma .launchpad.night-white .launchpad__item .button, .launchpad.night-white .launchpad__item .mma .button, .mma .launchpad.white-night .launchpad__item .button, .launchpad.white-night .launchpad__item .mma .button, .mma .button {
-  display: block !important;
+  display: none !important;
   margin: 0 auto !important;
   text-align: center;
-  width: 40% !important;
+  width: 41% !important;
 }
 
 @media (min-width: 768px) {
