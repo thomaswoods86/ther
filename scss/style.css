@@ -619,27 +619,27 @@ html {
 }
 
 .icon-launchpad__icon.consulting {
-  background-image: url("/img/ui-person--white.svg");
+  background-image: url("../img/ui-person--white.svg");
 }
 
 .icon-launchpad__icon.coaching {
-  background-image: url("/img/ui-chart--white.svg");
+  background-image: url("../img/ui-chart--white.svg");
 }
 
 .icon-launchpad__icon.curriculum-development {
-  background-image: url("/img/ui-apple--white.svg");
+  background-image: url("../img/ui-apple--white.svg");
 }
 
 .icon-launchpad__icon.technology-training {
-  background-image: url("/img/ui-computer--white.svg");
+  background-image: url("../img/ui-computer--white.svg");
 }
 
 .icon-launchpad__icon.assessment {
-  background-image: url("/img/ui-test--white.svg");
+  background-image: url("../img/ui-test--white.svg");
 }
 
 .icon-launchpad__icon.professional-learning {
-  background-image: url("/img/ui-open-book--white.svg");
+  background-image: url("../img/ui-open-book--white.svg");
 }
 
 .icon-launchpad .icon-launchpad__item:hover .icon-launchpad__icon {
@@ -1157,11 +1157,11 @@ html {
 }
 
 .map-spotlight.teal .phone {
-  background-image: url("/img/ui-phone--white.svg");
+  background-image: url("../img/ui-phone--white.svg");
 }
 
 .map-spotlight.teal .email {
-  background-image: url("/img/ui-email--white.svg");
+  background-image: url("../img/ui-email--white.svg");
 }
 
 .map-spotlight.night {
@@ -1193,11 +1193,11 @@ html {
 }
 
 .map-spotlight.night .phone {
-  background-image: url("/img/ui-phone--white.svg");
+  background-image: url("../img/ui-phone--white.svg");
 }
 
 .map-spotlight.night .email {
-  background-image: url("/img/ui-email--white.svg");
+  background-image: url("../img/ui-email--white.svg");
 }
 
 .map-spotlight.white {
@@ -1222,11 +1222,11 @@ html {
 }
 
 .map-spotlight.white .phone {
-  background-image: url("/img/ui-phone.svg");
+  background-image: url("../img/ui-phone.svg");
 }
 
 .map-spotlight.white .email {
-  background-image: url("/img/ui-email.svg");
+  background-image: url("../img/ui-email.svg");
 }
 
 .map-spotlight.grey {
@@ -1250,11 +1250,11 @@ html {
 }
 
 .map-spotlight.grey .phone {
-  background-image: url("/img/ui-phone.svg");
+  background-image: url("../img/ui-phone.svg");
 }
 
 .map-spotlight.grey .email {
-  background-image: url("/img/ui-email.svg");
+  background-image: url("../img/ui-email.svg");
 }
 
 .mma {

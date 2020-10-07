@@ -77,22 +77,22 @@
     transition: .25s;
     
     &.consulting {
-      background-image: url('/img/ui-person--white.svg');
+      background-image: url('../img/ui-person--white.svg');
     }
     &.coaching {
-      background-image: url('/img/ui-chart--white.svg');
+      background-image: url('../img/ui-chart--white.svg');
     }
     &.curriculum-development {
-      background-image: url('/img/ui-apple--white.svg');
+      background-image: url('../img/ui-apple--white.svg');
     }
     &.technology-training {
-      background-image: url('/img/ui-computer--white.svg');
+      background-image: url('../img/ui-computer--white.svg');
     }
     &.assessment {
-      background-image: url('/img/ui-test--white.svg');
+      background-image: url('../img/ui-test--white.svg');
     }
     &.professional-learning {
-      background-image: url('/img/ui-open-book--white.svg');
+      background-image: url('../img/ui-open-book--white.svg');
     }
   }
 
