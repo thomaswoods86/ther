@@ -1,20 +1,20 @@
 .my-slider {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   border: 3px solid red;
   }
   
   .tns-outer {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     overflow: hidden;
     position: relative;
   }
   
   .tns-item {
     outline: 1px solid green;
-    height: 300px;
     margin-right: 20px;
+    width: 300px;
   }
   
   .tns-item:last-of-type {
