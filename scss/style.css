@@ -1389,10 +1389,13 @@ html {
 
 .tns-item {
   margin: 0px;
+  width: 360px;
 }
 
 button {
   margin: 0 auto;
+  display: block;
+  text-align: center;
 }
 
 .split {
