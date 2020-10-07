@@ -1388,14 +1388,18 @@ html {
 }
 
 .tns-item {
-  margin: 0px;
   width: 360px;
 }
 
-button {
-  margin: 0 auto;
-  display: block;
+.tns-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
+  width: 100%;
 }
 
 .split {

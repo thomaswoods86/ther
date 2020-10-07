@@ -12,9 +12,8 @@
   }
   
   .tns-item {
-    // outline: 1px solid green;
-    margin: 0px;
-    // margin-right: 5px;
+    // outline: 1px solid green
+
     width: 360px;
   }
   
@@ -22,9 +21,13 @@
   //   outline: 1px solid blue;
   //   margin-right: 0px;
   // }
+  button{
+    // background-color: darkgoldenrod;
+  }
 
-  button {
-    margin: 0 auto;
-    display: block;
+  .tns-controls {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    width: 100%;
   }
