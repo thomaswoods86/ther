@@ -1511,6 +1511,7 @@ html {
 @media (min-width: 768px) {
   .split__title {
     font-size: 3.5rem;
+    text-align: left;
   }
 }
 
@@ -1525,7 +1526,7 @@ html {
 
 .split__subtext {
   font-size: 1.1rem;
-  color: #5b618a;
+  color: #0B0C10;
   text-align: center;
   margin-bottom: 30px;
 }
