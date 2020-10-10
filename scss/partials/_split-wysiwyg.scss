@@ -16,12 +16,20 @@
     }
   }
 
-  &__copy {
+  &__copy--info {
     width: 100%;
     position: relative;
     
     @include bp(medium) {
-      width: 50%;
+      width: 65%;
+    }
+  }
+  &__copy--owner {
+    width: 100%;
+    position: relative;
+    
+    @include bp(medium) {
+      width: 35%;
     }
   }
 
@@ -66,8 +74,8 @@
     z-index: 5;
 
     @include bp(medium) {
-      width: 300px;
-    height: 300px;
+      width: 200px;
+    height: 200px;
     }
   }
 
@@ -116,6 +124,7 @@
   }
 
   &__subtext {
+    font-family: $sans !important;
     font-size: 1.1rem;
     color: $black;
     text-align: center;
@@ -125,7 +134,7 @@
   &__body {
     font-size: 1rem;
     line-height: 2;
-    color: $night;
+    color: $black;
   }
 
   &.right {
@@ -175,8 +184,6 @@
   }
 
   &.no-image {
-    padding: calc(1px + 100px);;
-
     .split__copy {
       display: block;
       width: 100%;

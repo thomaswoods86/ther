@@ -551,8 +551,8 @@ html {
 }
 
 .icon-launchpad__item {
-  width: 40%;
-  margin: 0 20px 40px;
+  width: 49%;
+  margin: 0 auto 40px;
   position: relative;
   -webkit-transition: all .25s;
   transition: all .25s;
@@ -595,18 +595,26 @@ html {
 }
 
 .icon-launchpad__headline {
-  font-size: 1.275rem;
+  font-size: 1.1rem;
   color: #5b618a;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
   text-transform: capitalize;
   text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .icon-launchpad__headline {
+    font-size: 1.275rem;
+  }
 }
 
 .icon-launchpad__icon {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 20px;
   display: block;
   background-position: center center;
@@ -616,6 +624,12 @@ html {
   background-size: 30px;
   -webkit-transition: .25s;
   transition: .25s;
+}
+
+@media (min-width: 768px) {
+  .icon-launchpad__icon {
+    font-size: 3.5rem;
+  }
 }
 
 .icon-launchpad__icon.consulting {
@@ -1272,7 +1286,7 @@ html {
 
 @media (min-width: 768px) {
   .mma {
-    padding: 140px 0;
+    padding: 100px 0;
   }
 }
 
@@ -1333,6 +1347,7 @@ html {
 @media (min-width: 768px) {
   .mma__headline {
     font-size: 4rem;
+    width: 100%;
     text-align: left;
   }
 }
@@ -1431,14 +1446,25 @@ html {
   }
 }
 
-.split__copy {
+.split__copy--info {
   width: 100%;
   position: relative;
 }
 
 @media (min-width: 768px) {
-  .split__copy {
-    width: 50%;
+  .split__copy--info {
+    width: 65%;
+  }
+}
+
+.split__copy--owner {
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .split__copy--owner {
+    width: 35%;
   }
 }
 
@@ -1489,8 +1515,8 @@ html {
 
 @media (min-width: 768px) {
   .split__avatar {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -1525,6 +1551,7 @@ html {
 }
 
 .split__subtext {
+  font-family: "Karla" !important;
   font-size: 1.1rem;
   color: #0B0C10;
   text-align: center;
@@ -1534,7 +1561,7 @@ html {
 .split__body {
   font-size: 1rem;
   line-height: 2;
-  color: #5b618a;
+  color: #0B0C10;
 }
 
 .split.right .split__wrap {
@@ -1582,10 +1609,6 @@ html {
 .split.black .split__headline,
 .split.black .split__subtext {
   color: #ffffff;
-}
-
-.split.no-image {
-  padding: calc(1px + 100px);
 }
 
 .split.no-image .split__copy {

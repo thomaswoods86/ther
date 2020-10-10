@@ -17,13 +17,14 @@
 }
 
   &__item {
-    width: 40%;
-    margin: 0 20px 40px;
+    width: 49%;
+    margin: 0 auto 40px;
     position: relative;
     transition: all .25s;
     cursor: default;
     border-radius: 20px;
     display: inline-block;
+    // outline: 1px red solid;
     
     @include bp(medium) {
       width: 28%;
@@ -55,18 +56,23 @@
   }
 
   &__headline {
-    font-size: 1.275rem;
+    font-size: 1.1rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
     text-transform: capitalize;
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    @include bp(medium){
+      font-size: 1.275rem;
+    }
   }
 
   &__icon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto 20px;
     display: block;
     background-position: center center;
@@ -75,6 +81,10 @@
     background-color: $bright-teal;
     background-size: 30px;
     transition: .25s;
+
+    @include bp(medium){
+      font-size: 3.5rem;
+    }
     
     &.consulting {
       background-image: url('../img/ui-person--white.svg');

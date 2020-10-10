@@ -13,7 +13,7 @@
   overflow: hidden;
   
   @include bp(medium) {
-    padding: 140px 0;
+    padding: 100px 0;
   }
 
   &:before {
@@ -71,6 +71,7 @@
     
     @include bp(medium) {
       font-size: 4rem;
+      width: 100%;
       text-align: left;
     }
   }
