@@ -49,10 +49,8 @@
     &:before {
       content: '';
       background-image:
-    linear-gradient(
-      to bottom left, 
-      $night, rgb(17, 22, 87)
-    );
+        linear-gradient(to bottom left,
+          $night, rgb(17, 22, 87));
       position: absolute;
       top: 0;
       left: 0;
@@ -115,7 +113,7 @@
     line-height: 1.75;
     color: $night;
   }
-  
+
   .tns-nav {
     display: flex;
     justify-content: center;
@@ -140,7 +138,9 @@
       border-radius: 100%;
       position: relative;
       background-color: $black;
-    }&:focus {
+    }
+
+    &:focus {
       border: 0;
       outline: 0;
     }
@@ -150,15 +150,14 @@
     }
   }
 
-
-
-
   .tns-controls {
     max-width: 100%;
     margin: 0 auto;
     position: absolute;
     top: 47%;
     z-index: 2;
+    border: 0;
+    outline: 0;
 
     &:focus {
       border: 0;

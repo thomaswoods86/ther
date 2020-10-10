@@ -871,6 +871,8 @@ html {
   position: absolute;
   top: 47%;
   z-index: 2;
+  border: 0;
+  outline: 0;
 }
 
 .launchpad .tns-controls:focus {
