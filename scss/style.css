@@ -812,8 +812,16 @@ html {
 }
 
 .launchpad .tns-controls {
-  max-width: 40%;
+  max-width: 100%;
   margin: 0 auto;
+  position: absolute;
+  top: 47%;
+  z-index: 2;
+}
+
+.launchpad .tns-controls:focus {
+  border: 0;
+  outline: 0;
 }
 
 @media (min-width: 768px) {
@@ -828,7 +836,7 @@ html {
   border: none;
   text-indent: -9999px;
   position: relative;
-  background-image: url("../img/ui-arrow--black.svg");
+  background-image: url("/img/ui-arrow.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -844,7 +852,7 @@ html {
   border: none;
   text-indent: -9999px;
   position: relative;
-  background-image: url("../img/ui-arrow--black.svg");
+  background-image: url("../img/ui-arrow.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
