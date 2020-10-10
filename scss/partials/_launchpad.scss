@@ -22,7 +22,7 @@
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
 
     @include bp(medium) {
@@ -100,7 +100,7 @@
 
   .tns-nav {
     display: flex;
-    padding: 0 0 10px;
+    padding: 0 0 20px;
     justify-content: center;
 
     button {
