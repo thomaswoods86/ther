@@ -823,33 +823,33 @@ html {
 }
 
 .launchpad .tns-controls button:nth-of-type(1) {
-  padding: 10px;
+  padding: 18px;
   background-color: transparent;
   border: none;
   text-indent: -9999px;
   position: relative;
-  background: url("/img/ui-arrow.svg");
+  background: url("../img/ui-arrow.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 18px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
 .launchpad .tns-controls button:nth-of-type(2) {
-  padding: 10px;
+  padding: 18px;
   background-color: transparent;
   border: none;
   text-indent: -9999px;
   position: relative;
-  background: url("/img/ui-arrow.svg");
+  background: url("../img/ui-arrow.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 18px;
 }
 
 .launchpad.grey-night {
