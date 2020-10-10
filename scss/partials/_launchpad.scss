@@ -98,15 +98,44 @@
     color: $night;
   }
 
+  .tns-nav {
+    display: flex;
+    padding: 0 0 10px;
+    justify-content: center;
+
+    button {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      background-color: rgb(182, 182, 182);
+      border-radius: 100%;
+      position: relative;
+      border: 0;
+    }
+
+    .tns-nav-active {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      border-radius: 100%;
+      position: relative;
+      background-color: $black;
+    }
+  }
+
+
+
+
   .tns-controls {
     max-width: 100%;
     margin: 0 auto;
     position: absolute;
     top: 47%;
     z-index: 2;
+
     &:focus {
-    border: 0;
-    outline: 0;
+      border: 0;
+      outline: 0;
     }
 
     @include bp(medium) {

@@ -811,6 +811,35 @@ html {
   color: #5b618a;
 }
 
+.launchpad .tns-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.launchpad .tns-nav button {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #b6b6b6;
+  border-radius: 100%;
+  position: relative;
+  border: 0;
+}
+
+.launchpad .tns-nav .tns-nav-active {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 100%;
+  position: relative;
+  background-color: #0B0C10;
+}
+
 .launchpad .tns-controls {
   max-width: 100%;
   margin: 0 auto;
@@ -1357,10 +1386,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  border-radius: 0 0 20px 20px;
 }
 
 @media (min-width: 768px) {
   .mma {
+    border-radius: 0 0 40px 40px;
     padding: 100px 0;
   }
 }

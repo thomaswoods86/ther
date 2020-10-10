@@ -11,8 +11,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  
+  border-radius: 0 0 20px 20px;
+
   @include bp(medium) {
+    border-radius: 0 0 40px 40px;
     padding: 100px 0;
   }
 
