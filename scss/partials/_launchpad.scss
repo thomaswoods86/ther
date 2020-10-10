@@ -17,16 +17,17 @@
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
     
     @include bp(medium){
       font-size: 3.5rem;
+    margin-bottom: 30px;
     }
   }
 

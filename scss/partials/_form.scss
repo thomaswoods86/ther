@@ -60,7 +60,7 @@
 
   &__headline {
     font-size: 2rem;
-    color: $night;
+    color: $white;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
@@ -75,11 +75,10 @@
 
   &__subtext {
     font-weight: 400;
-    color: $night;
+    color: $white;
     margin-bottom: 30px;
     font-size: 1rem;
     line-height: 1.75;
-    color: $night;
     text-align: center;
     
     @include bp(medium) {
@@ -90,7 +89,7 @@
 
   #mc_embed_signup {
     background-color: $white;
-    padding: 60px;
+    padding: 30px;
     font-size: 14px;
     border-radius: 20px;
 

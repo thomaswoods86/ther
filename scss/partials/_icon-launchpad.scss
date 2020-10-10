@@ -5,14 +5,14 @@
 
   &__wrap {
 
-    max-width: 100%;
-    margin: 0 auto 80px;
+    max-width: 80%;
+    margin: 0 auto;
     
     @include bp(medium) {
     display: block;
     max-width: 900px;
     padding: 0;
-    margin: 0 auto 80px;
+    margin: 0 auto 20px;
   }
 }
 
@@ -24,8 +24,7 @@
     cursor: default;
     border-radius: 20px;
     display: inline-block;
-    // outline: 1px red solid;
-    
+
     @include bp(medium) {
       width: 28%;
       margin: 0 20px 40px;
@@ -42,16 +41,17 @@
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
     
     @include bp(medium){
       font-size: 3.5rem;
+    margin-bottom: 30px;
     }
   }
 
@@ -60,13 +60,15 @@
     color: $night;
     font-family: $sans;
     font-weight: 800;
-    line-height: .9;
+    line-height: 1.3;
     text-transform: capitalize;
     text-align: center;
     width: 75%;
     margin: 0 auto;
     @include bp(medium){
       font-size: 1.275rem;
+      width: 100%;
+      margin: 0;
     }
   }
 
@@ -83,7 +85,10 @@
     transition: .25s;
 
     @include bp(medium){
-      font-size: 3.5rem;
+      width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+
     }
     
     &.consulting {
@@ -128,7 +133,9 @@
 
   .icon-launchpad__item:hover .icon-launchpad__icon {
       // background-color: lighten($night, 10) !important;
+      @include bp(medium){
       background-color: $bright-teal !important;
+    }
     }
 
   &.grey-night {

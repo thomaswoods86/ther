@@ -1,7 +1,12 @@
 .education {
   position: relative;
-  padding: $layer-padding;
+  padding: 40px 0 0;
+  margin: 0 auto;
 
+  @include bp(medium) {
+    max-width: $max-width-l;
+    flex-direction: row;
+  }
   &__wrap {
     width: 90%;
     margin: 0 auto;
@@ -25,17 +30,20 @@
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 40px;
     text-align: center;
+    margin: 0 auto 40px;
+    line-height: 1.3;
+    width: 75%;
     
-    @include bp(medium) {
+    @include bp(medium){
       font-size: 3.5rem;
-      margin-bottom: 60px;
+    margin-bottom: 30px;
+    width: 100%;
     }
   }
 
@@ -56,6 +64,7 @@
   }
 
  ul {
+   padding-left: 35px;
     li {
       list-style-type: none;
       margin-bottom: 20px;
@@ -66,7 +75,7 @@
         position: absolute;
         width: 30px;
         height: 30px;
-        top:-2px;
+        top:5px;
         left: -35px;
         background-image: url('/img/ui-award-1.svg');
         background-position: center;
