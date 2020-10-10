@@ -828,7 +828,7 @@ html {
   border: none;
   text-indent: -9999px;
   position: relative;
-  background-image: url("../img/ui-arrow.svg");
+  background-image: url("../img/ui-arrow--black.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -844,7 +844,7 @@ html {
   border: none;
   text-indent: -9999px;
   position: relative;
-  background-image: url("../img/ui-arrow.svg");
+  background-image: url("../img/ui-arrow--black.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
