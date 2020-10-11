@@ -41,12 +41,12 @@ html {
 
 .button--black {
   border: 3px solid #4E419E;
-  color: #2D848A;
+  color: #0B0C10;
 }
 
 .button--black:hover {
-  background-color: #2D848A;
-  border: 3px solid #2D848A;
+  background-color: #4E419E;
+  border: 3px solid #4E419E;
   color: #ffffff;
 }
 
@@ -490,10 +490,27 @@ html {
   text-transform: uppercase;
   -webkit-transition: .25s;
   transition: .25s;
+  position: relative;
 }
 
-.main-nav a:hover {
-  color: #77BFAF;
+.main-nav a:after {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  left: 0;
+  background-color: #ffffff;
+  height: 3px;
+  width: 0%;
+}
+
+.main-nav a:hover:after {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  left: 0;
+  background-color: #ffffff;
+  height: 3px;
+  width: 100%;
 }
 
 .overlay {
@@ -835,6 +852,8 @@ html {
 
 .launchpad__item {
   background-color: #2D848A;
+  background: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  width: 90%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -852,6 +871,8 @@ html {
 
 .launchpad__item:before {
   content: '';
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#2D848A), to(#2D848A));
+  background-image: linear-gradient(to bottom left, #2D848A, #2D848A);
   position: absolute;
   top: 0;
   left: 0;
@@ -1122,7 +1143,7 @@ html {
 }
 
 .launchpad.white-night hr {
-  background-color: #4E419E;
+  background-color: white;
 }
 
 .launchpad.white-night .launchpad__item .button--white, .launchpad.white-night .launchpad__item .button--black, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.white-night .launchpad__item .button {
@@ -1146,7 +1167,7 @@ html {
   position: absolute;
   width: 0px;
   height: 0px;
-  background-color: #4E419E;
+  background-color: #2D848A;
   bottom: -150px;
   left: 0%;
   -webkit-transition: .15s;
@@ -1774,18 +1795,6 @@ section {
   line-height: .9;
   margin-bottom: 30px;
   text-align: center;
-  position: relative;
-  display: inline-block;
-}
-
-.split__title:after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #4E419E;
 }
 
 @media (min-width: 768px) {

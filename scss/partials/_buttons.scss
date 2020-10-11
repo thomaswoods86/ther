@@ -25,11 +25,11 @@
   &--black {
     @extend .button;
     border: 3px solid $teal;
-    color: $night;
+    color: $black;
 
     &:hover {
-      background-color: $night;
-      border: 3px solid $night;
+      background-color: $teal;
+      border: 3px solid $teal;
       color: $white;
     }
   }

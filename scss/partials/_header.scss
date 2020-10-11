@@ -70,9 +70,28 @@
     font-size: .875em;
     text-transform: uppercase;
     transition: .25s;
+    position: relative;
 
-    &:hover {
-      color: $bright-teal;
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: -4px;
+      left: 0;
+      background-color: $white;
+      height: 3px;
+      width: 0%;
+    }
+  }
+
+  a:hover {
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: -4px;
+      left: 0;
+      background-color: $white;
+      height: 3px;
+      width: 100%;
     }
   }
 }
