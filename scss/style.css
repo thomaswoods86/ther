@@ -40,7 +40,7 @@ html {
 }
 
 .button--black {
-  border: 3px solid #2D848A;
+  border: 3px solid #4E419E;
   color: #2D848A;
 }
 
@@ -887,7 +887,7 @@ html {
 
 .launchpad hr {
   height: 3px;
-  background-color: #77BFAF;
+  background-color: #4E419E;
   border: none;
   width: 15%;
   margin-bottom: 30px;
@@ -1122,7 +1122,7 @@ html {
 }
 
 .launchpad.white-night hr {
-  background-color: #77BFAF;
+  background-color: #4E419E;
 }
 
 .launchpad.white-night .launchpad__item .button--white, .launchpad.white-night .launchpad__item .button--black, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.white-night .launchpad__item .button {
@@ -1797,7 +1797,7 @@ section {
 
 .split__headline {
   font-size: 1.25rem;
-  color: #2D848A;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   text-align: center;

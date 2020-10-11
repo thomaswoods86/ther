@@ -13,4 +13,8 @@ var slider = tns({
   mouseDrag: true,
 });
 
+$(".overlay .links a").click(function () {
+$(".overlay").hide();
+});
+
 });

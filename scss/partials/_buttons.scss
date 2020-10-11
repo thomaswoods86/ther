@@ -24,7 +24,7 @@
   }
   &--black {
     @extend .button;
-    border: 3px solid $night;
+    border: 3px solid $teal;
     color: $night;
 
     &:hover {
