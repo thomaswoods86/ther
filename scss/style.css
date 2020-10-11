@@ -15,7 +15,7 @@ html {
 
 .button, .button--white, .button--black, .form #mc_embed_signup #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button, .launchpad.grey-white .launchpad__item .button, .launchpad.night-white .launchpad__item .button, .launchpad.white-night .launchpad__item .button, .mma .button {
   padding: 12px 35px;
-  border: 3px solid #77BFAF;
+  border: 3px solid #4E419E;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -40,13 +40,13 @@ html {
 }
 
 .button--black {
-  border: 3px solid #4E419E;
-  color: #4E419E;
+  border: 3px solid #2D848A;
+  color: #2D848A;
 }
 
 .button--black:hover {
-  background-color: #4E419E;
-  border: 3px solid #4E419E;
+  background-color: #2D848A;
+  border: 3px solid #2D848A;
   color: #ffffff;
 }
 
@@ -88,7 +88,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(45, 132, 138, 0.8);
+  background-color: rgba(78, 65, 158, 0.8);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(78, 65, 158, 0.8);
+  background-color: rgba(45, 132, 138, 0.8);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,11 +125,11 @@ html {
 }
 
 .cta.white .cta__headline {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .cta.white .cta__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .cta.black:before {
@@ -264,14 +264,14 @@ html {
 
 .form #mc_embed_signup #mc-embedded-subscribe.button--black {
   width: auto !important;
-  color: #4E419E;
-  border: 3px solid #4E419E;
+  color: #2D848A;
+  border: 3px solid #2D848A;
   background-color: transparent;
 }
 
 .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover {
-  border: 3px solid #4E419E;
-  background-color: #4E419E;
+  border: 3px solid #2D848A;
+  background-color: #2D848A;
   color: #ffffff;
 }
 
@@ -314,7 +314,7 @@ html {
 }
 
 .form.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .form.teal .form__headline,
@@ -323,7 +323,7 @@ html {
 }
 
 .form.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .form.night .form__headline,
@@ -338,7 +338,7 @@ html {
 
 .form.white .form__headline,
 .form.white .form__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .form.black {
@@ -353,7 +353,7 @@ html {
 .footer {
   position: relative;
   padding: 20px 0;
-  border-top: px #2a2356 solid;
+  border-top: px #143a3d solid;
 }
 
 .footer__wrap {
@@ -377,7 +377,7 @@ html {
 }
 
 .footer.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .footer.teal .footer__text {
@@ -385,7 +385,7 @@ html {
 }
 
 .footer.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .footer.night .footer__text {
@@ -398,7 +398,7 @@ html {
 }
 
 .footer.white .footer__text {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .footer.black {
@@ -502,7 +502,7 @@ html {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #4E419E;
+  background: #2D848A;
   z-index: 98;
   display: none;
 }
@@ -600,7 +600,7 @@ html {
 .neko .hamburger .hamburger-inner,
 .neko .hamburger-inner:before,
 .neko .hamburger-inner:after {
-  background: #4E419E;
+  background: #2D848A;
 }
 
 .neko .hamburger .hamburger-inner {
@@ -669,7 +669,7 @@ html {
 
 .icon-launchpad__title {
   font-size: 1.75rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -766,7 +766,7 @@ html {
 }
 
 .icon-launchpad.grey-night .icon-launchpad__headline {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .icon-launchpad.grey-night .icon-launchpad__icon {
@@ -782,7 +782,7 @@ html {
 }
 
 .icon-launchpad.white-night .icon-launchpad__icon {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .launchpad {
@@ -818,7 +818,7 @@ html {
 
 .launchpad__title {
   font-size: 1.75rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -834,7 +834,7 @@ html {
 }
 
 .launchpad__item {
-  background-color: #4E419E;
+  background-color: #2D848A;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -863,7 +863,7 @@ html {
 
 @media (min-width: 768px) {
   .launchpad__item {
-    background-color: #4E419E;
+    background-color: #2D848A;
     width: 33%;
     margin: 0 15px;
   }
@@ -910,11 +910,11 @@ html {
 
 .launchpad__subtext {
   font-weight: 400;
-  color: #4E419E;
+  color: #2D848A;
   margin-bottom: 30px;
   font-size: 1rem;
   line-height: 1.75;
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .launchpad .tns-nav {
@@ -1025,7 +1025,7 @@ html {
 }
 
 .launchpad.grey-night .launchpad__item {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .launchpad.grey-night .launchpad__headline,
@@ -1045,7 +1045,7 @@ html {
 
 .launchpad.grey-night .launchpad__item .button--white:hover, .launchpad.grey-night .launchpad__item .button--black:hover, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover {
   background-color: #ffffff;
-  color: #4E419E;
+  color: #2D848A;
   border: 3px solid #ffffff;
 }
 
@@ -1060,7 +1060,7 @@ html {
 .launchpad.grey-white .launchpad__headline,
 .launchpad.grey-white .launchpad__subtext,
 .launchpad.grey-white .launchpad__info {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .launchpad.grey-white hr {
@@ -1068,18 +1068,18 @@ html {
 }
 
 .launchpad.grey-white .launchpad__item .button--white, .launchpad.grey-white .launchpad__item .button--black, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-white .launchpad__item .button {
-  color: #4E419E;
-  border: 3px solid #4E419E;
+  color: #2D848A;
+  border: 3px solid #2D848A;
 }
 
 .launchpad.grey-white .launchpad__item .button--white:hover, .launchpad.grey-white .launchpad__item .button--black:hover, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-white .launchpad__item .button:hover {
-  background-color: #4E419E;
+  background-color: #2D848A;
   color: #ffffff;
-  border: 3px solid #4E419E;
+  border: 3px solid #2D848A;
 }
 
 .launchpad.night-white {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .launchpad.night-white .launchpad__item {
@@ -1089,7 +1089,7 @@ html {
 .launchpad.night-white .launchpad__headline,
 .launchpad.night-white .launchpad__subtext,
 .launchpad.night-white .launchpad__info {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .launchpad.night-white hr {
@@ -1097,14 +1097,14 @@ html {
 }
 
 .launchpad.night-white .launchpad__item .button--white, .launchpad.night-white .launchpad__item .button--black, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.night-white .launchpad__item .button {
-  color: #4E419E;
-  border: 3px solid #4E419E;
+  color: #2D848A;
+  border: 3px solid #2D848A;
 }
 
 .launchpad.night-white .launchpad__item .button--white:hover, .launchpad.night-white .launchpad__item .button--black:hover, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.night-white .launchpad__item .button:hover {
-  background-color: #4E419E;
+  background-color: #2D848A;
   color: #ffffff;
-  border: 3px solid #4E419E;
+  border: 3px solid #2D848A;
 }
 
 .launchpad.white-night {
@@ -1112,7 +1112,7 @@ html {
 }
 
 .launchpad.white-night .launchpad__item {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .launchpad.white-night .launchpad__headline,
@@ -1132,7 +1132,7 @@ html {
 
 .launchpad.white-night .launchpad__item .button--white:hover, .launchpad.white-night .launchpad__item .button--black:hover, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.white-night .launchpad__item .button:hover {
   background-color: #ffffff;
-  color: #4E419E;
+  color: #2D848A;
   border: 3px solid #ffffff;
 }
 
@@ -1146,7 +1146,7 @@ html {
   position: absolute;
   width: 0px;
   height: 0px;
-  background-color: #2D848A;
+  background-color: #4E419E;
   bottom: -150px;
   left: 0%;
   -webkit-transition: .15s;
@@ -1376,7 +1376,7 @@ html {
 }
 
 .map-spotlight.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .map-spotlight.teal .map-spotlight__copy--item a,
@@ -1404,7 +1404,7 @@ html {
 }
 
 .map-spotlight.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .map-spotlight.night .map-spotlight__copy--item a,
@@ -1448,7 +1448,7 @@ html {
 .map-spotlight.white .map-spotlight__title,
 .map-spotlight.white .map-spotlight__headline,
 .map-spotlight.white .map-spotlight__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .map-spotlight.white .phone,
@@ -1476,7 +1476,7 @@ html {
 .map-spotlight.grey .map-spotlight__title,
 .map-spotlight.grey .map-spotlight__headline,
 .map-spotlight.grey .map-spotlight__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .map-spotlight.grey .phone,
@@ -1520,7 +1520,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(78, 65, 158, 0.85);
+  background-color: rgba(45, 132, 138, 0.85);
   height: 100%;
   width: 100%;
 }
@@ -1537,7 +1537,7 @@ html {
     position: absolute;
     top: 0;
     right: -500px;
-    background-color: #4e419e;
+    background-color: #2d848a;
     height: 900px;
     width: 900px;
     -webkit-transform: rotate(-75deg);
@@ -1592,7 +1592,7 @@ html {
   .mma hr {
     display: block;
     height: 3px;
-    background-color: #77BFAF;
+    background-color: #4E419E;
     border: none;
     width: 18%;
     margin-bottom: 15px;
@@ -1729,7 +1729,7 @@ section {
   .split__copy--owner-content {
     margin: 60px 0 80px;
     position: relative;
-    border-left: 3px solid #4E419E;
+    border-left: 3px solid #2D848A;
     text-align: center;
   }
 }
@@ -1738,7 +1738,7 @@ section {
   position: relative;
   width: 180px;
   height: 180px;
-  background-color: #2D848A;
+  background-color: #4E419E;
   border-radius: 100%;
   background-image: url("https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
   background-position: center center;
@@ -1761,7 +1761,7 @@ section {
 
 .split__title {
   font-size: 2rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1778,7 +1778,7 @@ section {
 
 .split__headline {
   font-size: 1.25rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   text-align: center;
@@ -1821,7 +1821,7 @@ section {
 }
 
 .split.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .split.teal .split__headline,
@@ -1830,7 +1830,7 @@ section {
 }
 
 .split.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .split.night .split__headline,
@@ -1845,7 +1845,7 @@ section {
 
 .split.white .split__headline,
 .split.white .split__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .split.black {
@@ -1910,7 +1910,7 @@ section {
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: #2D848A;
+  background-color: #4E419E;
   border-radius: 100%;
   background-image: url("https://images.unsplash.com/photo-1581464907815-29bdb6343d3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
   background-position: top center;
@@ -1929,7 +1929,7 @@ section {
 
 .spotlight__headline {
   font-size: 2.5rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1938,7 +1938,7 @@ section {
 
 .spotlight__subtext {
   font-size: 1.1rem;
-  color: #4E419E;
+  color: #2D848A;
   margin-bottom: 30px;
 }
 
@@ -1963,7 +1963,7 @@ section {
 }
 
 .spotlight.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .spotlight.teal .spotlight__headline,
@@ -1972,7 +1972,7 @@ section {
 }
 
 .spotlight.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .spotlight.night .spotlight__headline,
@@ -1987,7 +1987,7 @@ section {
 
 .spotlight.white .spotlight__headline,
 .spotlight.white .spotlight__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .spotlight.black {
@@ -2049,7 +2049,7 @@ section {
 
 .education__title {
   font-size: 1.75rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -2069,7 +2069,7 @@ section {
 
 .education__headline {
   font-size: 2.5rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -2078,7 +2078,7 @@ section {
 
 .education__subtext {
   font-size: 1.1rem;
-  color: #4E419E;
+  color: #2D848A;
   margin-bottom: 30px;
 }
 
@@ -2116,7 +2116,7 @@ section {
 }
 
 .education.teal {
-  background-color: #2D848A;
+  background-color: #4E419E;
 }
 
 .education.teal .education__headline,
@@ -2125,7 +2125,7 @@ section {
 }
 
 .education.night {
-  background-color: #4E419E;
+  background-color: #2D848A;
 }
 
 .education.night .education__headline,
@@ -2139,7 +2139,7 @@ section {
 
 .education.white .education__headline,
 .education.white .education__subtext {
-  color: #4E419E;
+  color: #2D848A;
 }
 
 .education.black {
@@ -2187,7 +2187,7 @@ section {
 
 .wysiwyg__title {
   font-size: 3.5rem;
-  color: #4E419E;
+  color: #2D848A;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
