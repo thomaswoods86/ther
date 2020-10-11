@@ -1,6 +1,6 @@
 .map-spotlight {
   position: relative;
-  padding: 40px 0 20px;
+  padding: 40px 0 0;
 
   @include bp(medium) {
     padding: 90px 0 40px;
@@ -12,7 +12,7 @@
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-align: center;
     
     @include bp(medium){
@@ -24,12 +24,13 @@
   &__wrap {
     max-width: $max-width-l;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-
+    
     @include bp(medium) {
+      width: 100%;
       flex-direction: row;
     }
   }
@@ -40,11 +41,35 @@
 
   &__content-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 
     @include bp(medium) {
-      flex-direction: row;
+      // flex-direction: row;
+    }
+
+    ul {
+      padding: 0;
+      font-family: $sans;
+      margin: 0 0 30px;
+      @include bp(medium) {
+        margin: 0;
+      }
+      li {
+        list-style-type: none;
+        color: $white;
+        text-align: center;
+        margin: 8px 0;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 
@@ -59,27 +84,6 @@
     }
   }
 
-  &__copy--item {
-    text-align: center;
-    padding: 20px 0 50px;
-    
-    @include bp(medium) {
-      width: 50%;
-      padding: 50px 0;
-    }
-
-    a {
-      font-size: 1.1rem;
-      color: white;
-      position: relative;
-      text-decoration: none;
-    }
-
-    &:hover a {
-      text-decoration: underline;
-    }
-  }
-
   &__image {
     width: 100%;
     height: 350px;
@@ -90,10 +94,13 @@
     }
 
     iframe {
-      border-radius: 20px;
       height: 100%;
       width: 100%;
       border: 0;
+      
+      @include bp(medium) {
+        border-radius: 20px;
+      }
     }
   }
 
@@ -141,16 +148,6 @@
 
   .email {
     background-image: url('../img/ui-email--white.svg');
-  }
-
-  ul {
-    margin-bottom: 30px;
-    padding-left: 20px;
-    width: 80%;
-
-    li {
-      text-transform: capitalize;
-    }
   }
 
   &.teal {

@@ -1,13 +1,18 @@
 .footer {
   position: relative;
-  padding: 40px 0 40px;
+  padding: 20px 0;
   border-top: px darken($night, 20) solid;
 
   &__wrap {
-    max-width: $max-width-l;
+    max-width: 60%;
     margin: 0 auto;
     text-align: center;
     position: relative;
+    
+    @include bp(medium) {
+      max-width: $max-width-l;
+      height: auto;
+    }
   }
 
   &__text {
