@@ -55,7 +55,7 @@
     @include bp(medium) {
       margin: 60px 0 80px;
       position: relative;
-      border-left: 3px solid $night;
+      border-left: 3px solid $black;
       text-align: center;
     }
   }
@@ -100,12 +100,24 @@
 
   &__title {
     font-size: 2rem;
-    color: $night;
+    color: $black;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
     margin-bottom: 30px;
     text-align: center;
+    position: relative;
+    display: inline-block;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: $teal;
+    }
     
     @include bp(medium){
       font-size: 3.5rem;

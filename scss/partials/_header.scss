@@ -116,11 +116,12 @@
 }
 
 .neko{
-  position: relative;
+  position: absolute;
   top: 0;
  height: 65px;
   width: 100%;
-  display: none;
+  // display: none;
+  background-color: transparent;
 
   @include bp(medium) {
     display: none;
@@ -171,7 +172,7 @@
   .hamburger .hamburger-inner,
   .hamburger-inner:before,
   .hamburger-inner:after {
-    background: $night;
+    background: $white;
   }
 
   .hamburger .hamburger-inner {

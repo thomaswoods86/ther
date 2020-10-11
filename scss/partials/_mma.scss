@@ -58,7 +58,8 @@
 
   &__headline {
     font-size: 2rem;
-    color: #fff;
+    // color: #fff;
+    color: transparent;
     font-family: $sans;
     font-weight: 800;
     line-height: .9;
@@ -72,8 +73,13 @@
     @include bp(medium) {
       margin: 0 auto 20px;
       font-size: 4rem;
-      width: 100%;
+      width: 80%;
       text-align: left;
+    }
+    
+    @include bp(large) {
+      color: #fff;
+      width: 100%;
     }
   }
   

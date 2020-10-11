@@ -538,11 +538,11 @@ html {
 }
 
 .neko {
-  position: relative;
+  position: absolute;
   top: 0;
   height: 65px;
   width: 100%;
-  display: none;
+  background-color: transparent;
 }
 
 @media (min-width: 768px) {
@@ -600,7 +600,7 @@ html {
 .neko .hamburger .hamburger-inner,
 .neko .hamburger-inner:before,
 .neko .hamburger-inner:after {
-  background: #2D848A;
+  background: #ffffff;
 }
 
 .neko .hamburger .hamburger-inner {
@@ -669,7 +669,7 @@ html {
 
 .icon-launchpad__title {
   font-size: 1.75rem;
-  color: #2D848A;
+  color: #0B0C10;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -818,7 +818,7 @@ html {
 
 .launchpad__title {
   font-size: 1.75rem;
-  color: #2D848A;
+  color: #0B0C10;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1557,7 +1557,7 @@ html {
 
 .mma__headline {
   font-size: 2rem;
-  color: #fff;
+  color: transparent;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1573,8 +1573,15 @@ html {
   .mma__headline {
     margin: 0 auto 20px;
     font-size: 4rem;
-    width: 100%;
+    width: 80%;
     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mma__headline {
+    color: #fff;
+    width: 100%;
   }
 }
 
@@ -1729,7 +1736,7 @@ section {
   .split__copy--owner-content {
     margin: 60px 0 80px;
     position: relative;
-    border-left: 3px solid #2D848A;
+    border-left: 3px solid #0B0C10;
     text-align: center;
   }
 }
@@ -1761,12 +1768,24 @@ section {
 
 .split__title {
   font-size: 2rem;
-  color: #2D848A;
+  color: #0B0C10;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
   margin-bottom: 30px;
   text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.split__title:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #4E419E;
 }
 
 @media (min-width: 768px) {
@@ -2049,7 +2068,7 @@ section {
 
 .education__title {
   font-size: 1.75rem;
-  color: #2D848A;
+  color: #0B0C10;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
