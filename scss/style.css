@@ -494,7 +494,7 @@ html {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.938);
+  background: #5b618a;
   z-index: 98;
   display: none;
 }
@@ -527,6 +527,87 @@ html {
 
 .menu-toggle {
   display: block;
+}
+
+.neko {
+  position: relative;
+  top: 0;
+  height: 65px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .neko {
+    display: none;
+  }
+}
+
+.neko img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 45px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.neko button {
+  float: right;
+  position: relative;
+  z-index: 999;
+  border: none;
+}
+
+.neko .hamburger {
+  position: absolute !important;
+  top: 5px;
+  right: 5px;
+  display: block;
+  z-index: 99;
+}
+
+.neko .hamburger:focus {
+  outline: 0px solid;
+  border: 0px solid;
+}
+
+@media (min-width: 768px) {
+  .neko .hamburger {
+    display: none;
+  }
+}
+
+.neko .hamburger:hover {
+  opacity: 1;
+}
+
+.neko .hamburger.hamburger.is-active:hover {
+  opacity: 1;
+}
+
+.neko .hamburger .hamburger-inner,
+.neko .hamburger-inner:before,
+.neko .hamburger-inner:after {
+  background: #5b618a;
+}
+
+.neko .hamburger .hamburger-inner {
+  width: 75%;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.neko .hamburger.is-active .hamburger-inner {
+  width: 100%;
+}
+
+.neko .hamburger.is-active .hamburger-inner,
+.neko .hamburger.is-active .hamburger-inner:before,
+.neko .hamburger.is-active .hamburger-inner:after {
+  background: #fff;
 }
 
 .icon-launchpad {
@@ -842,7 +923,11 @@ html {
   background-color: #b6b6b6;
   border-radius: 100%;
   position: relative;
+}
+
+.launchpad .tns-nav button:focus {
   border: 0;
+  outline: 0;
 }
 
 .launchpad .tns-nav .tns-nav-active {
@@ -902,6 +987,11 @@ html {
           transform: rotate(180deg);
 }
 
+.launchpad .tns-controls button:nth-of-type(1):focus {
+  outline: 0;
+  border: 0;
+}
+
 .launchpad .tns-controls button:nth-of-type(2) {
   padding: 15px;
   background-color: transparent;
@@ -914,6 +1004,11 @@ html {
   background-repeat: no-repeat;
   width: 15px;
   height: 15px;
+}
+
+.launchpad .tns-controls button:nth-of-type(2):focus {
+  outline: 0;
+  border: 0;
 }
 
 .launchpad.grey-night {
