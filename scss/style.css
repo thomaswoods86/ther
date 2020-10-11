@@ -15,7 +15,7 @@ html {
 
 .button, .button--white, .button--black, .form #mc_embed_signup #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button, .launchpad.grey-white .launchpad__item .button, .launchpad.night-white .launchpad__item .button, .launchpad.white-night .launchpad__item .button, .mma .button {
   padding: 12px 35px;
-  border: 3px solid #09ADA5;
+  border: 3px solid #77BFAF;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -40,13 +40,13 @@ html {
 }
 
 .button--black {
-  border: 3px solid #310c49;
-  color: #310c49;
+  border: 3px solid #4E419E;
+  color: #4E419E;
 }
 
 .button--black:hover {
-  background-color: #310c49;
-  border: 3px solid #310c49;
+  background-color: #4E419E;
+  border: 3px solid #4E419E;
   color: #ffffff;
 }
 
@@ -105,7 +105,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(49, 12, 73, 0.8);
+  background-color: rgba(78, 65, 158, 0.8);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,11 +125,11 @@ html {
 }
 
 .cta.white .cta__headline {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .cta.white .cta__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .cta.black:before {
@@ -264,14 +264,14 @@ html {
 
 .form #mc_embed_signup #mc-embedded-subscribe.button--black {
   width: auto !important;
-  color: #310c49;
-  border: 3px solid #310c49;
+  color: #4E419E;
+  border: 3px solid #4E419E;
   background-color: transparent;
 }
 
 .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover {
-  border: 3px solid #310c49;
-  background-color: #310c49;
+  border: 3px solid #4E419E;
+  background-color: #4E419E;
   color: #ffffff;
 }
 
@@ -323,7 +323,7 @@ html {
 }
 
 .form.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .form.night .form__headline,
@@ -338,7 +338,7 @@ html {
 
 .form.white .form__headline,
 .form.white .form__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .form.black {
@@ -353,7 +353,7 @@ html {
 .footer {
   position: relative;
   padding: 20px 0;
-  border-top: px black solid;
+  border-top: px #2a2356 solid;
 }
 
 .footer__wrap {
@@ -385,7 +385,7 @@ html {
 }
 
 .footer.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .footer.night .footer__text {
@@ -398,7 +398,7 @@ html {
 }
 
 .footer.white .footer__text {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .footer.black {
@@ -493,7 +493,7 @@ html {
 }
 
 .main-nav a:hover {
-  color: #09ADA5;
+  color: #77BFAF;
 }
 
 .overlay {
@@ -502,7 +502,7 @@ html {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #310c49;
+  background: #4E419E;
   z-index: 98;
   display: none;
 }
@@ -600,7 +600,7 @@ html {
 .neko .hamburger .hamburger-inner,
 .neko .hamburger-inner:before,
 .neko .hamburger-inner:after {
-  background: #310c49;
+  background: #4E419E;
 }
 
 .neko .hamburger .hamburger-inner {
@@ -669,7 +669,7 @@ html {
 
 .icon-launchpad__title {
   font-size: 1.75rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -717,7 +717,7 @@ html {
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 100px;
-  background-color: #09ADA5;
+  background-color: #77BFAF;
   background-size: 30px;
   -webkit-transition: .25s;
   transition: .25s;
@@ -757,7 +757,7 @@ html {
 
 @media (min-width: 768px) {
   .icon-launchpad .icon-launchpad__item:hover .icon-launchpad__icon {
-    background-color: #09ADA5 !important;
+    background-color: #77BFAF !important;
   }
 }
 
@@ -766,11 +766,11 @@ html {
 }
 
 .icon-launchpad.grey-night .icon-launchpad__headline {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .icon-launchpad.grey-night .icon-launchpad__icon {
-  background-color: #09ADA5;
+  background-color: #77BFAF;
 }
 
 .icon-launchpad.white-night {
@@ -782,7 +782,7 @@ html {
 }
 
 .icon-launchpad.white-night .icon-launchpad__icon {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .launchpad {
@@ -818,7 +818,7 @@ html {
 
 .launchpad__title {
   font-size: 1.75rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -834,8 +834,7 @@ html {
 }
 
 .launchpad__item {
-  background: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-  width: 90%;
+  background-color: #4E419E;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -853,8 +852,6 @@ html {
 
 .launchpad__item:before {
   content: '';
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#310c49), to(#111657));
-  background-image: linear-gradient(to bottom left, #310c49, #111657);
   position: absolute;
   top: 0;
   left: 0;
@@ -866,11 +863,13 @@ html {
 
 @media (min-width: 768px) {
   .launchpad__item {
-    background-color: #310c49;
+    background-color: #4E419E;
     width: 33%;
     margin: 0 15px;
   }
   .launchpad__item:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
     -webkit-box-shadow: 0px 9px 15px -5px rgba(0, 0, 0, 0.72);
     box-shadow: 0px 9px 15px -5px rgba(0, 0, 0, 0.72);
   }
@@ -888,7 +887,7 @@ html {
 
 .launchpad hr {
   height: 3px;
-  background-color: #09ADA5;
+  background-color: #77BFAF;
   border: none;
   width: 15%;
   margin-bottom: 30px;
@@ -911,11 +910,11 @@ html {
 
 .launchpad__subtext {
   font-weight: 400;
-  color: #310c49;
+  color: #4E419E;
   margin-bottom: 30px;
   font-size: 1rem;
   line-height: 1.75;
-  color: #310c49;
+  color: #4E419E;
 }
 
 .launchpad .tns-nav {
@@ -958,12 +957,6 @@ html {
 .launchpad .tns-nav:focus {
   border: 0;
   outline: 0;
-}
-
-@media (min-width: 768px) {
-  .launchpad .tns-nav {
-    display: none;
-  }
 }
 
 .launchpad .tns-controls {
@@ -1032,7 +1025,7 @@ html {
 }
 
 .launchpad.grey-night .launchpad__item {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .launchpad.grey-night .launchpad__headline,
@@ -1042,7 +1035,7 @@ html {
 }
 
 .launchpad.grey-night hr {
-  background-color: #09ADA5;
+  background-color: #77BFAF;
 }
 
 .launchpad.grey-night .launchpad__item .button--white, .launchpad.grey-night .launchpad__item .button--black, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button {
@@ -1052,7 +1045,7 @@ html {
 
 .launchpad.grey-night .launchpad__item .button--white:hover, .launchpad.grey-night .launchpad__item .button--black:hover, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover {
   background-color: #ffffff;
-  color: #310c49;
+  color: #4E419E;
   border: 3px solid #ffffff;
 }
 
@@ -1067,7 +1060,7 @@ html {
 .launchpad.grey-white .launchpad__headline,
 .launchpad.grey-white .launchpad__subtext,
 .launchpad.grey-white .launchpad__info {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .launchpad.grey-white hr {
@@ -1075,18 +1068,18 @@ html {
 }
 
 .launchpad.grey-white .launchpad__item .button--white, .launchpad.grey-white .launchpad__item .button--black, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-white .launchpad__item .button {
-  color: #310c49;
-  border: 3px solid #310c49;
+  color: #4E419E;
+  border: 3px solid #4E419E;
 }
 
 .launchpad.grey-white .launchpad__item .button--white:hover, .launchpad.grey-white .launchpad__item .button--black:hover, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-white .launchpad__item .button:hover {
-  background-color: #310c49;
+  background-color: #4E419E;
   color: #ffffff;
-  border: 3px solid #310c49;
+  border: 3px solid #4E419E;
 }
 
 .launchpad.night-white {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .launchpad.night-white .launchpad__item {
@@ -1096,7 +1089,7 @@ html {
 .launchpad.night-white .launchpad__headline,
 .launchpad.night-white .launchpad__subtext,
 .launchpad.night-white .launchpad__info {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .launchpad.night-white hr {
@@ -1104,14 +1097,14 @@ html {
 }
 
 .launchpad.night-white .launchpad__item .button--white, .launchpad.night-white .launchpad__item .button--black, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.night-white .launchpad__item .button {
-  color: #310c49;
-  border: 3px solid #310c49;
+  color: #4E419E;
+  border: 3px solid #4E419E;
 }
 
 .launchpad.night-white .launchpad__item .button--white:hover, .launchpad.night-white .launchpad__item .button--black:hover, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.night-white .launchpad__item .button:hover {
-  background-color: #310c49;
+  background-color: #4E419E;
   color: #ffffff;
-  border: 3px solid #310c49;
+  border: 3px solid #4E419E;
 }
 
 .launchpad.white-night {
@@ -1119,7 +1112,7 @@ html {
 }
 
 .launchpad.white-night .launchpad__item {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .launchpad.white-night .launchpad__headline,
@@ -1129,7 +1122,7 @@ html {
 }
 
 .launchpad.white-night hr {
-  background-color: #09ADA5;
+  background-color: #77BFAF;
 }
 
 .launchpad.white-night .launchpad__item .button--white, .launchpad.white-night .launchpad__item .button--black, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.white-night .launchpad__item .button {
@@ -1139,7 +1132,7 @@ html {
 
 .launchpad.white-night .launchpad__item .button--white:hover, .launchpad.white-night .launchpad__item .button--black:hover, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.white-night .launchpad__item .button:hover {
   background-color: #ffffff;
-  color: #310c49;
+  color: #4E419E;
   border: 3px solid #ffffff;
 }
 
@@ -1213,7 +1206,6 @@ html {
 @media (min-width: 768px) {
   .map-spotlight__title {
     font-size: 3.5rem;
-    margin-bottom: 30px;
   }
 }
 
@@ -1233,7 +1225,7 @@ html {
 
 @media (min-width: 768px) {
   .map-spotlight__wrap {
-    width: 100%;
+    width: 90%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1412,7 +1404,7 @@ html {
 }
 
 .map-spotlight.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .map-spotlight.night .map-spotlight__copy--item a,
@@ -1456,7 +1448,7 @@ html {
 .map-spotlight.white .map-spotlight__title,
 .map-spotlight.white .map-spotlight__headline,
 .map-spotlight.white .map-spotlight__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .map-spotlight.white .phone,
@@ -1484,7 +1476,7 @@ html {
 .map-spotlight.grey .map-spotlight__title,
 .map-spotlight.grey .map-spotlight__headline,
 .map-spotlight.grey .map-spotlight__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .map-spotlight.grey .phone,
@@ -1528,7 +1520,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(49, 12, 73, 0.85);
+  background-color: rgba(78, 65, 158, 0.85);
   height: 100%;
   width: 100%;
 }
@@ -1545,7 +1537,7 @@ html {
     position: absolute;
     top: 0;
     right: -500px;
-    background-color: #310c49;
+    background-color: #4e419e;
     height: 900px;
     width: 900px;
     -webkit-transform: rotate(-75deg);
@@ -1573,12 +1565,13 @@ html {
   margin-bottom: 30px;
   text-align: center;
   width: 80%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   line-height: 1.1;
 }
 
 @media (min-width: 768px) {
   .mma__headline {
+    margin: 0 auto 20px;
     font-size: 4rem;
     width: 100%;
     text-align: left;
@@ -1599,7 +1592,7 @@ html {
   .mma hr {
     display: block;
     height: 3px;
-    background-color: #09ADA5;
+    background-color: #77BFAF;
     border: none;
     width: 18%;
     margin-bottom: 15px;
@@ -1630,19 +1623,23 @@ section {
 }
 
 .my-slider {
+  margin: 0 auto;
   width: 100%;
   border: 3px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .tns-outer {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   overflow: hidden;
   position: relative;
 }
 
-.tns-item {
-  width: 360px;
+.tns-inner {
+  padding: 20px 0;
 }
 
 .tns-controls {
@@ -1652,7 +1649,6 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  text-align: center;
   width: 100%;
 }
 
@@ -1733,7 +1729,7 @@ section {
   .split__copy--owner-content {
     margin: 60px 0 80px;
     position: relative;
-    border-left: 3px solid #310c49;
+    border-left: 3px solid #4E419E;
     text-align: center;
   }
 }
@@ -1765,7 +1761,7 @@ section {
 
 .split__title {
   font-size: 2rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1781,17 +1777,17 @@ section {
 }
 
 .split__headline {
-  font-size: 1.5rem;
-  color: #310c49;
+  font-size: 1.25rem;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   text-align: center;
-  margin: 20px 0 5px;
+  margin: 20px 0px 0;
 }
 
 .split__subtext {
   font-family: "Karla" !important;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #0B0C10;
   text-align: center;
   margin-bottom: 30px;
@@ -1808,7 +1804,7 @@ section {
 
 @media (min-width: 768px) {
   .split__body {
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.75;
     width: 100%;
   }
@@ -1834,7 +1830,7 @@ section {
 }
 
 .split.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .split.night .split__headline,
@@ -1849,7 +1845,7 @@ section {
 
 .split.white .split__headline,
 .split.white .split__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .split.black {
@@ -1933,7 +1929,7 @@ section {
 
 .spotlight__headline {
   font-size: 2.5rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -1942,7 +1938,7 @@ section {
 
 .spotlight__subtext {
   font-size: 1.1rem;
-  color: #310c49;
+  color: #4E419E;
   margin-bottom: 30px;
 }
 
@@ -1976,7 +1972,7 @@ section {
 }
 
 .spotlight.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .spotlight.night .spotlight__headline,
@@ -1991,7 +1987,7 @@ section {
 
 .spotlight.white .spotlight__headline,
 .spotlight.white .spotlight__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .spotlight.black {
@@ -2053,7 +2049,7 @@ section {
 
 .education__title {
   font-size: 1.75rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -2073,7 +2069,7 @@ section {
 
 .education__headline {
   font-size: 2.5rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
@@ -2082,7 +2078,7 @@ section {
 
 .education__subtext {
   font-size: 1.1rem;
-  color: #310c49;
+  color: #4E419E;
   margin-bottom: 30px;
 }
 
@@ -2129,7 +2125,7 @@ section {
 }
 
 .education.night {
-  background-color: #310c49;
+  background-color: #4E419E;
 }
 
 .education.night .education__headline,
@@ -2143,7 +2139,7 @@ section {
 
 .education.white .education__headline,
 .education.white .education__subtext {
-  color: #310c49;
+  color: #4E419E;
 }
 
 .education.black {
@@ -2191,7 +2187,7 @@ section {
 
 .wysiwyg__title {
   font-size: 3.5rem;
-  color: #310c49;
+  color: #4E419E;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;

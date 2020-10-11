@@ -114,17 +114,17 @@
   }
 
   &__headline {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
     text-align: center;
-    margin: 20px 0 5px;
+    margin: 20px 0px 0;
   }
 
   &__subtext {
     font-family: $sans !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: $black;
     text-align: center;
     margin-bottom: 30px;
@@ -139,7 +139,7 @@
     margin: 0 auto;
         
     @include bp(medium){
-      font-size: 1.25rem;
+      font-size: 1rem;
     line-height: 1.75;
       width: 100%;
     }

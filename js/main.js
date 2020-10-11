@@ -6,4 +6,11 @@ $(".hamburger").click(function () {
   $(".overlay").fadeToggle();
 });
 
+var slider = tns({
+  container: ".launchpad__wrap",
+  loop: false,
+  edgePadding: 0,
+  mouseDrag: true,
+});
+
 });
