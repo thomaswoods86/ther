@@ -90,12 +90,12 @@
   .links {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%, -50%);
 
     @include bp(small) {
       left: 50%;
-      top: 30%;
+      top: 50%;
     }
 
     a {

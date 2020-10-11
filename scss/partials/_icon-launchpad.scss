@@ -41,6 +41,7 @@
   }
 
   &__title {
+    
     font-size: 1.75rem;
     color: $night;
     font-family: $sans;
@@ -56,10 +57,16 @@
   }
 
   &__headline {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $black;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+
     font-size: 1.1rem;
-    color: $night;
     font-family: $sans;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.3;
     text-transform: capitalize;
     text-align: center;
@@ -111,24 +118,6 @@
     }
   }
 
-  // .icon-launchpad__item:hover .consulting {
-  //   background-image: url('/img/ui-person--white.svg');
-  // }
-  // .icon-launchpad__item:hover .coaching {
-  //   background-image: url('/img/ui-chart.svg');
-  // }
-  // .icon-launchpad__item:hover .curriculum-development {
-  //   background-image: url('/img/ui-apple.svg');
-  // }
-  // .icon-launchpad__item:hover .technology-training {
-  //   background-image: url('/img/ui-computer.svg');
-  // }
-  // .icon-launchpad__item:hover .assessment {
-  //   background-image: url('/img/ui-test.svg');
-  // }
-  // .icon-launchpad__item:hover .professional-learning {
-  //   background-image: url('/img/ui-open-book.svg');
-  // }
 
 
   .icon-launchpad__item:hover .icon-launchpad__icon {
@@ -153,7 +142,7 @@
     background-color: $white;
 
     .icon-launchpad__headline {
-      color: $night;
+      color: $black;
     }
     .icon-launchpad__icon {
       background-color: $night;

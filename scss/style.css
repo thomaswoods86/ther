@@ -502,7 +502,7 @@ html {
 .overlay .links {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
@@ -510,7 +510,7 @@ html {
 @media (min-width: 480px) {
   .overlay .links {
     left: 50%;
-    top: 30%;
+    top: 50%;
   }
 }
 
@@ -676,10 +676,15 @@ html {
 }
 
 .icon-launchpad__headline {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0B0C10;
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
   font-size: 1.1rem;
-  color: #5b618a;
   font-family: "Karla";
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.3;
   text-transform: capitalize;
   text-align: center;
@@ -764,7 +769,7 @@ html {
 }
 
 .icon-launchpad.white-night .icon-launchpad__headline {
-  color: #5b618a;
+  color: #0B0C10;
 }
 
 .icon-launchpad.white-night .icon-launchpad__icon {
@@ -914,6 +919,8 @@ html {
   max-width: 80%;
   padding: 0 0 20px;
   margin: 0 auto;
+  border: 0;
+  outline: 0;
 }
 
 .launchpad .tns-nav button {
@@ -1717,7 +1724,7 @@ section {
 }
 
 .split__copy--owner-content {
-  margin: 60px 0 10px;
+  margin: 30px 0 10px;
   position: relative;
   text-align: center;
 }
@@ -1774,7 +1781,7 @@ section {
 }
 
 .split__headline {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #5b618a;
   font-family: "Karla";
   font-weight: 800;
@@ -1792,8 +1799,11 @@ section {
 
 .split__body {
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.5;
   color: #0B0C10;
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .split.right .split__wrap {
