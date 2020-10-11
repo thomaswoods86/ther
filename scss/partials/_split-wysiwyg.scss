@@ -110,12 +110,11 @@
     @include bp(medium){
       font-size: 3.5rem;
     text-align: left;
-
     }
   }
 
   &__headline {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: $night;
     font-family: $sans;
     font-weight: 800;
@@ -138,6 +137,12 @@
     text-align: left;
     width: 90%;
     margin: 0 auto;
+        
+    @include bp(medium){
+      font-size: 1.25rem;
+    line-height: 1.5;
+      width: 100%;
+    }
   }
 
   &.right {

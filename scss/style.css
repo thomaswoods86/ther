@@ -1781,7 +1781,7 @@ section {
 }
 
 .split__headline {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #5b618a;
   font-family: "Karla";
   font-weight: 800;
@@ -1804,6 +1804,14 @@ section {
   text-align: left;
   width: 90%;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .split__body {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    width: 100%;
+  }
 }
 
 .split.right .split__wrap {
