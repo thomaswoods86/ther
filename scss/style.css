@@ -228,7 +228,6 @@ html {
   color: #ffffff;
   font-family: "Karla";
   font-weight: 800;
-  line-height: .9;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -291,6 +290,10 @@ html {
 
 .form #mc_embed_signup .asterisk {
   color: red;
+}
+
+.form #mc_embed_signup .asterisk:after {
+  display: none;
 }
 
 .form #mc_embed_signup #mce-MMERGE5 {
@@ -1199,11 +1202,10 @@ html {
 }
 
 .map-spotlight__title {
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #ffffff;
   font-family: "Karla";
   font-weight: 800;
-  line-height: .9;
   margin-bottom: 30px;
   text-align: center;
 }
