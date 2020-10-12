@@ -15,7 +15,7 @@
     text-align: center;
     
     @include bp(medium){
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   }
 
@@ -131,23 +131,6 @@
     margin-bottom: 0;
   }
 
-  .phone,
-  .email {
-    width: 50px;
-    height: 50px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .phone {
-    background-image: url('../img/ui-phone--white.svg');
-  }
-
-  .email {
-    background-image: url('../img/ui-email--white.svg');
-  }
-
   &.teal {
     background-color: $teal;
 
@@ -156,23 +139,6 @@
     .map-spotlight__headline,
     .map-spotlight__subtext {
       color: $white;
-    }
-
-    .phone,
-    .email {
-      width: 50px;
-      height: 50px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
-    .phone {
-      background-image: url('../img/ui-phone--white.svg');
-    }
-
-    .email {
-      background-image: url('../img/ui-email--white.svg');
     }
   }
 
@@ -184,28 +150,6 @@
     .map-spotlight__headline,
     .map-spotlight__subtext {
       color: $white;
-    }
-
-    .phone,
-    .email {
-      width: 30px;
-      height: 30px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      
-      @include bp(medium) {
-        width: 50px;
-        height: 50px;
-      }
-    }
-
-    .phone {
-      background-image: url('../img/ui-phone--white.svg');
-    }
-
-    .email {
-      background-image: url('../img/ui-email--white.svg');
     }
   }
 
@@ -219,23 +163,6 @@
     .map-spotlight__subtext {
       color: $night;
     }
-
-    .phone,
-    .email {
-      width: 50px;
-      height: 50px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
-    .phone {
-      background-image: url('../img/ui-phone.svg');
-    }
-
-    .email {
-      background-image: url('../img/ui-email.svg');
-    }
   }
 
   &.grey {
@@ -246,23 +173,6 @@
     .map-spotlight__headline,
     .map-spotlight__subtext {
       color: $night;
-    }
-
-    .phone,
-    .email {
-      width: 50px;
-      height: 50px;
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
-    .phone {
-      background-image: url('../img/ui-phone.svg');
-    }
-
-    .email {
-      background-image: url('../img/ui-email.svg');
     }
   }
 }

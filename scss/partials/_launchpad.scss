@@ -26,7 +26,7 @@
     text-align: center;
 
     @include bp(medium) {
-      font-size: 3.5rem;
+      font-size: 3rem;
       margin-bottom: 30px;
     }
   }
@@ -316,18 +316,28 @@
     }
 
     hr {
-      background-color: white;
+      background-color: $white;
     }
 
-    .launchpad__item .button {
-      @extend .button;
-      color: $white;
-      border: 3px solid $white;
-
-      &:hover {
+    .launchpad__item .button--black-2 {
+        background-color: transparent;
+        border: 2px solid $white;
+        color: $white;
+      }
+      
+    .launchpad__item:hover .button--black-2 {
+      @include bp(medium) {
         background-color: $white;
-        color: $night;
-        border: 3px solid $white;
+        border: 2px solid $white;
+        color: $black;
+      }
+    }
+    
+    .launchpad__item .button:hover  {
+      @include bp(medium) {
+        background-color: $black;
+        border: 2px solid $black;
+        color: $white;
       }
     }
   }
@@ -358,12 +368,6 @@
     height: 100%;
     left: 0;
     transform: scale(2);
-  }
-}
-
-.launchpad__item:hover hr {
-  @include bp(medium) {
-    background-color: $white;
   }
 }
 

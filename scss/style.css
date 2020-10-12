@@ -13,7 +13,7 @@ html {
   font-family: "Karla" !important;
 }
 
-.button, .button--white, .button--black, .form #mc_embed_signup #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button, .launchpad.grey-white .launchpad__item .button, .launchpad.night-white .launchpad__item .button, .launchpad.white-night .launchpad__item .button, .mma .button {
+.button, .button--white, .button--black, .button--black-2, .form #mc_embed_signup #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button, .launchpad.grey-white .launchpad__item .button, .launchpad.night-white .launchpad__item .button, .mma .button {
   padding: 12px 35px;
   border: 3px solid #4E419E;
   display: inline-block;
@@ -29,7 +29,7 @@ html {
   border-radius: 50px;
 }
 
-.button:hover, .button--white:hover, .button--black:hover, .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover, .launchpad.grey-white .launchpad__item .button:hover, .launchpad.night-white .launchpad__item .button:hover, .launchpad.white-night .launchpad__item .button:hover {
+.button:hover, .button--white:hover, .button--black:hover, .button--black-2:hover, .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover, .launchpad.grey-white .launchpad__item .button:hover, .launchpad.night-white .launchpad__item .button:hover {
   background-color: #fffefe;
   border: 3px solid #fffefe;
   color: #0B0C10;
@@ -47,6 +47,17 @@ html {
 .button--black:hover {
   background-color: #4E419E;
   border: 3px solid #4E419E;
+  color: #fffefe;
+}
+
+.button--black-2 {
+  border: 3px solid #0B0C10;
+  color: #0B0C10;
+}
+
+.button--black-2:hover {
+  background-color: #0B0C10;
+  border: 3px solid #0B0C10;
   color: #fffefe;
 }
 
@@ -235,7 +246,7 @@ html {
 @media (min-width: 768px) {
   .form__headline {
     text-align: left;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -353,7 +364,6 @@ html {
 .footer {
   position: relative;
   padding: 20px 0;
-  border-top: px #143a3d solid;
 }
 
 .footer__wrap {
@@ -478,7 +488,7 @@ html {
 .main-nav li {
   display: inline-block;
   padding: 0;
-  margin: 0 2%;
+  margin: 0 20px;
 }
 
 .main-nav a {
@@ -669,8 +679,8 @@ html {
 
 @media (min-width: 768px) {
   .icon-launchpad__item {
-    width: 28%;
-    margin: 0 20px 40px;
+    width: 33%;
+    margin: 0 0px 40px;
     position: relative;
     -webkit-transition: all .25s;
     transition: all .25s;
@@ -696,7 +706,7 @@ html {
 
 @media (min-width: 768px) {
   .icon-launchpad__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 30px;
   }
 }
@@ -774,7 +784,7 @@ html {
 
 @media (min-width: 768px) {
   .icon-launchpad .icon-launchpad__item:hover .icon-launchpad__icon {
-    background-color: #77BFAF !important;
+    background-color: #0B0C10;
   }
 }
 
@@ -845,7 +855,7 @@ html {
 
 @media (min-width: 768px) {
   .launchpad__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 30px;
   }
 }
@@ -1059,12 +1069,12 @@ html {
   background-color: #77BFAF;
 }
 
-.launchpad.grey-night .launchpad__item .button--white, .launchpad.grey-night .launchpad__item .button--black, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button {
+.launchpad.grey-night .launchpad__item .button--white, .launchpad.grey-night .launchpad__item .button--black, .launchpad.grey-night .launchpad__item .button--black-2, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-night .launchpad__item .button {
   color: #fffefe;
   border: 3px solid #fffefe;
 }
 
-.launchpad.grey-night .launchpad__item .button--white:hover, .launchpad.grey-night .launchpad__item .button--black:hover, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover {
+.launchpad.grey-night .launchpad__item .button--white:hover, .launchpad.grey-night .launchpad__item .button--black:hover, .launchpad.grey-night .launchpad__item .button--black-2:hover, .launchpad.grey-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-night .launchpad__item .button:hover {
   background-color: #fffefe;
   color: #2D848A;
   border: 3px solid #fffefe;
@@ -1088,12 +1098,12 @@ html {
   background-color: #0B0C10;
 }
 
-.launchpad.grey-white .launchpad__item .button--white, .launchpad.grey-white .launchpad__item .button--black, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-white .launchpad__item .button {
+.launchpad.grey-white .launchpad__item .button--white, .launchpad.grey-white .launchpad__item .button--black, .launchpad.grey-white .launchpad__item .button--black-2, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.grey-white .launchpad__item .button {
   color: #2D848A;
   border: 3px solid #2D848A;
 }
 
-.launchpad.grey-white .launchpad__item .button--white:hover, .launchpad.grey-white .launchpad__item .button--black:hover, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-white .launchpad__item .button:hover {
+.launchpad.grey-white .launchpad__item .button--white:hover, .launchpad.grey-white .launchpad__item .button--black:hover, .launchpad.grey-white .launchpad__item .button--black-2:hover, .launchpad.grey-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.grey-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.grey-white .launchpad__item .button:hover {
   background-color: #2D848A;
   color: #fffefe;
   border: 3px solid #2D848A;
@@ -1117,12 +1127,12 @@ html {
   background-color: #0B0C10;
 }
 
-.launchpad.night-white .launchpad__item .button--white, .launchpad.night-white .launchpad__item .button--black, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.night-white .launchpad__item .button {
+.launchpad.night-white .launchpad__item .button--white, .launchpad.night-white .launchpad__item .button--black, .launchpad.night-white .launchpad__item .button--black-2, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.night-white .launchpad__item .button {
   color: #2D848A;
   border: 3px solid #2D848A;
 }
 
-.launchpad.night-white .launchpad__item .button--white:hover, .launchpad.night-white .launchpad__item .button--black:hover, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.night-white .launchpad__item .button:hover {
+.launchpad.night-white .launchpad__item .button--white:hover, .launchpad.night-white .launchpad__item .button--black:hover, .launchpad.night-white .launchpad__item .button--black-2:hover, .launchpad.night-white .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.night-white .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.night-white .launchpad__item .button:hover {
   background-color: #2D848A;
   color: #fffefe;
   border: 3px solid #2D848A;
@@ -1143,18 +1153,29 @@ html {
 }
 
 .launchpad.white-night hr {
-  background-color: white;
-}
-
-.launchpad.white-night .launchpad__item .button--white, .launchpad.white-night .launchpad__item .button--black, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black, .launchpad.white-night .launchpad__item .button {
-  color: #fffefe;
-  border: 3px solid #fffefe;
-}
-
-.launchpad.white-night .launchpad__item .button--white:hover, .launchpad.white-night .launchpad__item .button--black:hover, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black:hover, .launchpad.white-night .launchpad__item .button:hover {
   background-color: #fffefe;
-  color: #2D848A;
-  border: 3px solid #fffefe;
+}
+
+.launchpad.white-night .launchpad__item .button--black-2 {
+  background-color: transparent;
+  border: 2px solid #fffefe;
+  color: #fffefe;
+}
+
+@media (min-width: 768px) {
+  .launchpad.white-night .launchpad__item:hover .button--black-2 {
+    background-color: #fffefe;
+    border: 2px solid #fffefe;
+    color: #0B0C10;
+  }
+}
+
+@media (min-width: 768px) {
+  .launchpad.white-night .launchpad__item .button:hover, .launchpad.white-night .launchpad__item .button--white:hover, .launchpad.white-night .launchpad__item .button--black:hover, .launchpad.white-night .launchpad__item .button--black-2:hover, .launchpad.white-night .launchpad__item .form #mc_embed_signup #mc-embedded-subscribe.button--black:hover, .form #mc_embed_signup .launchpad.white-night .launchpad__item #mc-embedded-subscribe.button--black:hover {
+    background-color: #0B0C10;
+    border: 2px solid #0B0C10;
+    color: #fffefe;
+  }
 }
 
 .copy {
@@ -1185,12 +1206,6 @@ html {
     left: 0;
     -webkit-transform: scale(2);
             transform: scale(2);
-  }
-}
-
-@media (min-width: 768px) {
-  .launchpad__item:hover hr {
-    background-color: #fffefe;
   }
 }
 
@@ -1226,7 +1241,7 @@ html {
 
 @media (min-width: 768px) {
   .map-spotlight__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -1379,23 +1394,6 @@ html {
   margin-bottom: 0;
 }
 
-.map-spotlight .phone,
-.map-spotlight .email {
-  width: 50px;
-  height: 50px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.map-spotlight .phone {
-  background-image: url("../img/ui-phone--white.svg");
-}
-
-.map-spotlight .email {
-  background-image: url("../img/ui-email--white.svg");
-}
-
 .map-spotlight.teal {
   background-color: #4E419E;
 }
@@ -1407,23 +1405,6 @@ html {
   color: #fffefe;
 }
 
-.map-spotlight.teal .phone,
-.map-spotlight.teal .email {
-  width: 50px;
-  height: 50px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.map-spotlight.teal .phone {
-  background-image: url("../img/ui-phone--white.svg");
-}
-
-.map-spotlight.teal .email {
-  background-image: url("../img/ui-email--white.svg");
-}
-
 .map-spotlight.night {
   background-color: #2D848A;
 }
@@ -1433,31 +1414,6 @@ html {
 .map-spotlight.night .map-spotlight__headline,
 .map-spotlight.night .map-spotlight__subtext {
   color: #fffefe;
-}
-
-.map-spotlight.night .phone,
-.map-spotlight.night .email {
-  width: 30px;
-  height: 30px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-  .map-spotlight.night .phone,
-  .map-spotlight.night .email {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-.map-spotlight.night .phone {
-  background-image: url("../img/ui-phone--white.svg");
-}
-
-.map-spotlight.night .email {
-  background-image: url("../img/ui-email--white.svg");
 }
 
 .map-spotlight.white {
@@ -1472,23 +1428,6 @@ html {
   color: #2D848A;
 }
 
-.map-spotlight.white .phone,
-.map-spotlight.white .email {
-  width: 50px;
-  height: 50px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.map-spotlight.white .phone {
-  background-image: url("../img/ui-phone.svg");
-}
-
-.map-spotlight.white .email {
-  background-image: url("../img/ui-email.svg");
-}
-
 .map-spotlight.grey {
   background-color: #e0e0e0;
 }
@@ -1500,27 +1439,9 @@ html {
   color: #2D848A;
 }
 
-.map-spotlight.grey .phone,
-.map-spotlight.grey .email {
-  width: 50px;
-  height: 50px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.map-spotlight.grey .phone {
-  background-image: url("../img/ui-phone.svg");
-}
-
-.map-spotlight.grey .email {
-  background-image: url("../img/ui-email.svg");
-}
-
 .mma {
   position: relative;
   padding: 60px 0;
-  /* Books */
   background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   /* Kids */
   /* Books */
@@ -1530,8 +1451,9 @@ html {
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mma {
+    background-image: url("/img/header-vid-2.gif");
     padding: 100px 0;
   }
 }
@@ -1552,57 +1474,26 @@ html {
   z-index: 1;
 }
 
-@media (min-width: 768px) {
-  .mma__wrap:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -500px;
-    background-color: #2d848a;
-    height: 900px;
-    width: 900px;
-    -webkit-transform: rotate(-75deg);
-            transform: rotate(-75deg);
-  }
-}
-
 .mma__copy {
   position: relative;
 }
 
-@media (min-width: 768px) {
-  .mma__copy {
-    width: 45%;
-  }
-}
-
 .mma__headline {
   font-size: 2rem;
-  color: transparent;
+  text-align: center;
+  color: #fff;
   font-family: "Karla";
   font-weight: 800;
   line-height: .9;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  text-align: center;
   width: 80%;
-  margin: 0 auto;
+  padding: 70px 0 40px;
   line-height: 1.1;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .mma__headline {
-    margin: 0 auto 20px;
-    font-size: 4rem;
-    width: 80%;
-    text-align: left;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mma__headline {
-    color: #fff;
-    width: 100%;
+    font-size: 3.5rem;
   }
 }
 
@@ -1630,7 +1521,7 @@ html {
   }
 }
 
-.mma .button--white, .mma .button--black, .mma .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .mma #mc-embedded-subscribe.button--black, .mma .launchpad.grey-night .launchpad__item .button, .launchpad.grey-night .launchpad__item .mma .button, .mma .launchpad.grey-white .launchpad__item .button, .launchpad.grey-white .launchpad__item .mma .button, .mma .launchpad.night-white .launchpad__item .button, .launchpad.night-white .launchpad__item .mma .button, .mma .launchpad.white-night .launchpad__item .button, .launchpad.white-night .launchpad__item .mma .button, .mma .button {
+.mma .button--white, .mma .button--black, .mma .button--black-2, .mma .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .mma #mc-embedded-subscribe.button--black, .mma .launchpad.grey-night .launchpad__item .button, .launchpad.grey-night .launchpad__item .mma .button, .mma .launchpad.grey-white .launchpad__item .button, .launchpad.grey-white .launchpad__item .mma .button, .mma .launchpad.night-white .launchpad__item .button, .launchpad.night-white .launchpad__item .mma .button, .mma .button {
   display: none !important;
   margin: 0 auto !important;
   text-align: center;
@@ -1638,7 +1529,7 @@ html {
 }
 
 @media (min-width: 768px) {
-  .mma .button--white, .mma .button--black, .mma .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .mma #mc-embedded-subscribe.button--black, .mma .launchpad.grey-night .launchpad__item .button, .launchpad.grey-night .launchpad__item .mma .button, .mma .launchpad.grey-white .launchpad__item .button, .launchpad.grey-white .launchpad__item .mma .button, .mma .launchpad.night-white .launchpad__item .button, .launchpad.night-white .launchpad__item .mma .button, .mma .launchpad.white-night .launchpad__item .button, .launchpad.white-night .launchpad__item .mma .button, .mma .button {
+  .mma .button--white, .mma .button--black, .mma .button--black-2, .mma .form #mc_embed_signup #mc-embedded-subscribe.button--black, .form #mc_embed_signup .mma #mc-embedded-subscribe.button--black, .mma .launchpad.grey-night .launchpad__item .button, .launchpad.grey-night .launchpad__item .mma .button, .mma .launchpad.grey-white .launchpad__item .button, .launchpad.grey-white .launchpad__item .mma .button, .mma .launchpad.night-white .launchpad__item .button, .launchpad.night-white .launchpad__item .mma .button, .mma .button {
     display: inline-block !important;
     margin: auto;
   }
@@ -1803,7 +1694,7 @@ body {
 
 @media (min-width: 768px) {
   .split__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: left;
   }
 }
@@ -2093,7 +1984,7 @@ body {
 
 @media (min-width: 768px) {
   .education__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 30px;
     width: 100%;
   }

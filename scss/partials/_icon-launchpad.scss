@@ -26,8 +26,8 @@
     display: inline-block;
 
     @include bp(medium) {
-      width: 28%;
-      margin: 0 20px 40px;
+      width: 33%;
+      margin: 0 0px 40px;
       position: relative;
       transition: all .25s;
       cursor: default;
@@ -51,7 +51,7 @@
     text-align: center;
     
     @include bp(medium){
-      font-size: 3.5rem;
+      font-size: 3rem;
     margin-bottom: 30px;
     }
   }
@@ -123,7 +123,7 @@
   .icon-launchpad__item:hover .icon-launchpad__icon {
       // background-color: lighten($night, 10) !important;
       @include bp(medium){
-      background-color: $bright-teal !important;
+      background-color: $black;
     }
     }
 

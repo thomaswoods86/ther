@@ -33,4 +33,15 @@
       color: $white;
     }
   }
+  &--black-2 {
+    @extend .button;
+    border: 3px solid $black;
+    color: $black;
+
+    &:hover {
+      background-color: $black;
+      border: 3px solid $black;
+      color: $white;
+    }
+  }
 }
