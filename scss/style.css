@@ -1453,8 +1453,8 @@ html {
 
 @media (min-width: 1024px) {
   .mma {
-    background-image: url("/img/header-vid-2.gif");
-    padding: 100px 0;
+    background-image: url("../img/header.gif");
+    padding: 100px 0 120px;
   }
 }
 

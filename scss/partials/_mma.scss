@@ -13,8 +13,8 @@
   overflow: hidden;
 
   @include bp(large) {
-    background-image: url("/img/header-vid-2.gif");
-    padding: 100px 0;
+    background-image: url("../img/header.gif");
+    padding: 100px 0 120px ;
   }
 
   &:before {
