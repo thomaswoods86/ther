@@ -14,6 +14,7 @@ var slider = tns({
 });
 
 $(".overlay .links a").click(function () {
+  $('.hamburger').toggleClass('is-active');
 $(".overlay").hide();
 });
 
