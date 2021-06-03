@@ -284,6 +284,7 @@ html {
   border: 3px solid #2D848A;
   background-color: #2D848A;
   color: #fffefe;
+  cursor: pointer;
 }
 
 .form #mc_embed_signup #mc-embedded-subscribe.button--black:focus {
@@ -363,7 +364,7 @@ html {
 
 .footer {
   position: relative;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .footer__wrap {
@@ -395,7 +396,7 @@ html {
 }
 
 .footer.night {
-  background-color: #2D848A;
+  background-color: #000;
 }
 
 .footer.night .footer__text {
@@ -564,6 +565,10 @@ html {
   display: block;
 }
 
+.nosey {
+  display: none;
+}
+
 .neko {
   position: absolute;
   top: 0;
@@ -713,12 +718,6 @@ html {
 }
 
 .icon-launchpad__headline {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #0B0C10;
-  text-align: left;
-  width: 90%;
-  margin: 0 auto;
   font-size: 1.1rem;
   font-family: "Karla";
   font-weight: 700;
@@ -726,7 +725,7 @@ html {
   text-transform: capitalize;
   text-align: center;
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto 15px;
 }
 
 @media (min-width: 768px) {
@@ -834,6 +833,36 @@ html {
   position: relative;
   padding: 40px 0;
   font-family: "Karla";
+}
+
+.launchpad iframe {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 650px;
+}
+
+@media (min-width: 768px) {
+  .launchpad iframe {
+    width: 650px;
+    height: 650px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .launchpad iframe {
+    width: 800px;
+    height: 650px;
+  }
+}
+
+.launchpad .view-agenda {
+  display: none;
+}
+
+.launchpad .mlist {
+  width: 300px;
+  height: 400px;
 }
 
 .launchpad__wrap {
@@ -1006,6 +1035,34 @@ html {
 .launchpad .tns-nav:focus {
   border: 0;
   outline: 0;
+}
+
+.launchpad .cal {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.launchpad .eaec-list-component {
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.launchpad .eaec-events-calendar-component.jsx-403451104 {
+  padding: 20px 40px;
+}
+
+.launchpad .jsx-403451104 a {
+  display: none !important;
+}
+
+.launchpad .eaec-list-item-component {
+  background-color: #2D848A !important;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+.launchpad .eaec-list-item-component:hover {
+  background-color: #303030 !important;
 }
 
 .launchpad .tns-controls {
@@ -1677,9 +1734,8 @@ body {
   position: relative;
   width: 180px;
   height: 180px;
-  background-color: #4E419E;
   border-radius: 100%;
-  background-image: url("https://images.unsplash.com/photo-1573497019418-b400bb3ab074?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");
+  background-image: url("../../img/image2.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -25,8 +25,6 @@
     @include bp(medium) {
       padding: 0px 40px;
     }
-
-
   }
 
   .icons {
@@ -132,6 +130,10 @@
 
 .menu-toggle {
   display: block;
+}
+
+.nosey {
+  display: none;
 }
 
 .neko{

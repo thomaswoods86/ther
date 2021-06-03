@@ -3,6 +3,31 @@
   padding: $layer-padding;
   font-family: $sans;
 
+  iframe {
+  display: block;
+  margin: 0 auto;
+  // outline: 10px solid red;
+  width: 500px;
+  height: 650px;
+  
+  @include bp(medium) {
+    width: 650px;
+    height: 650px;
+  }
+  @include bp(large) {
+    width: 800px;
+    height: 650px;
+  }
+  }
+
+  .view-agenda {
+    display: none;
+  }
+  .mlist {
+  width: 300px;
+  height: 400px;
+  }
+
   &__wrap {
     max-width: $max-width-l;
     flex-direction: column;
@@ -151,6 +176,35 @@
       outline: 0;
     }
   }
+
+.cal {
+  margin: 0 auto;
+  max-width: 1150px;
+  //   border: 2px solid black;
+  //   background-color: rgb(226, 226, 226);
+}
+
+.eaec-list-component {
+margin: 0 auto;
+max-width: 70%;
+}
+
+.eaec-events-calendar-component.jsx-403451104 {
+  padding: 20px 40px;
+}
+
+.jsx-403451104 a {
+  display: none !important;
+}
+
+.eaec-list-item-component {
+    background-color: $night !important;
+    transition: .25s;
+  }
+
+.eaec-list-item-component:hover {
+  background-color: rgb(48, 48, 48) !important;
+}
 
   .tns-controls {
     max-width: 100%;
