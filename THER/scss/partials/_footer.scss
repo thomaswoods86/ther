@@ -1,0 +1,55 @@
+.footer {
+  position: relative;
+  padding: 15px 0;
+
+  &__wrap {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    
+    @include bp(medium) {
+      max-width: $max-width-l;
+      height: auto;
+    }
+  }
+
+  &__text {
+    color: $white;
+    font-size: .875rem;
+    cursor: default;
+  }
+
+  &.teal {
+    background-color: $teal;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+
+  &.night {
+    background-color: #000;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+
+  &.white {
+    background-color: $white;
+    margin: 40px 0;
+
+    .footer__text {
+      color: $night;
+    }
+  }
+
+  &.black {
+    background-color: $black;
+
+    .footer__text {
+      color: $white;
+    }
+  }
+}

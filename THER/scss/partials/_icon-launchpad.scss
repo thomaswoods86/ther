@@ -1,0 +1,160 @@
+.icon-launchpad {
+  position: relative;
+  padding: 0px 0;
+  font-family: $sans;
+
+  &__wrap {
+
+    max-width: 80%;
+    margin: 0 auto;
+    
+    @include bp(medium) {
+    display: block;
+    max-width: 1100px;
+    padding: 0;
+    margin: 0 auto 20px;
+  }
+}
+
+  &__item {
+    width: 100%;
+    margin: 0 auto 40px;
+    position: relative;
+    transition: all .25s;
+    cursor: default;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align:top;
+
+    @include bp(medium) {
+      width: 33%;
+      margin: 0 0px 40px;
+      position: relative;
+      transition: all .25s;
+      cursor: default;
+      border-radius: 20px;
+      display: inline-block;
+
+    &:hover .icon-launchpad__icon {
+      transform: rotate(-11.25deg);
+    }
+  }
+  }
+
+  &__title {
+    
+    font-size: 1.75rem;
+    color: $black;
+    font-family: $sans;
+    font-weight: 800;
+    line-height: .9;
+    margin-bottom: 40px;
+    text-align: center;
+    
+    @include bp(medium){
+      font-size: 3rem;
+    margin-bottom: 30px;
+    }
+  }
+
+  &__headline {
+    font-size: 1.1rem;
+    font-family: $sans;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto 15px;
+    @include bp(medium){
+      font-size: 1.275rem;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  &__detail {
+    font-size: 1rem;
+    font-family: $sans;
+    line-height: 1.3;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+
+    @include bp(medium){
+      font-size: 1rem;
+      width: 90%;
+      margin: 10px auto 0;
+    }
+  }
+
+  &__icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    background-color: $bright-teal;
+    background-size: 30px;
+    transition: .25s;
+
+    @include bp(medium){
+      width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+
+    }
+    
+    &.consulting {
+      background-image: url('../img/ui-person--white.svg');
+    }
+    &.coaching {
+      background-image: url('../img/ui-chart--white.svg');
+    }
+    &.curriculum-development {
+      background-image: url('../img/ui-apple--white.svg');
+    }
+    &.technology-training {
+      background-image: url('../img/ui-computer--white.svg');
+    }
+    &.assessment {
+      background-image: url('../img/ui-test--white.svg');
+    }
+    &.professional-learning {
+      background-image: url('../img/ui-open-book--white.svg');
+    }
+  }
+
+
+
+  .icon-launchpad__item:hover .icon-launchpad__icon {
+      // background-color: lighten($night, 10) !important;
+      @include bp(medium){
+      background-color: $black;
+    }
+    }
+
+  &.grey-night {
+    background-color: $grey;
+
+    .icon-launchpad__headline {
+      color: $night;
+    }
+    .icon-launchpad__icon {
+      background-color: $bright-teal;
+    }
+  }
+
+  &.white-night {
+    background-color: $white;
+
+    .icon-launchpad__headline {
+      color: $black;
+    }
+    .icon-launchpad__icon {
+      background-color: $night;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+$sans: 'Karla';
+$sans2: 'Parisienne';
+$sans3:'Montserrat';
+$quick: 'Quicksand', sans-serif;
+
+$max-width-l: 1150px;
+$layer-padding: 40px 0;
+
+@mixin bp($point) {
+  @if $point==xlarge {
+    @media (min-width: 1280px) {
+      @content ;
+    }
+  }
+
+  @else if $point==large {
+    @media (min-width: 1024px) {
+      @content ;
+    }
+  }
+
+  @else if $point==medium {
+    @media (min-width: 768px) {
+      @content ;
+    }
+  }
+
+  @else if $point==small {
+    @media (min-width: 480px) {
+      @content ;
+    }
+  }
+
+  @else if $point==xsmall {
+    @media (max-width: 320px) {
+      @content ;
+    }
+  }
+}
+
+// * {
+//   @include bp(xsmall) {
+//     outline: 1px dashed red;
+//   }
+//   @include bp(small) {
+//     outline: 1px dashed orange;
+//   }
+//   @include bp(medium) {
+//     outline: 1px dashed yellow;
+//   }
+//   @include bp(large) {
+//     outline: 1px dashed green;
+//   }
+//   @include bp(xlarge) {
+//     outline: 1px dashed blue;
+//   }
+// }
+
+html {
+  scroll-behavior: smooth;
+}
+
+ 
+$white:       #fffefe;
+$grey:        #e0e0e0;
+$champ:       #E5D4CE;
+$bright-teal: #77BFAF;
+$teal:        #4E419E;
+// #4E419E
+$night:       #2D848A;
+// #2D848A
+$black:       #0B0C10;
+
+@import 'partials/base';
+@import 'partials/buttons';
+@import 'partials/cta';
+@import 'partials/form';
+@import 'partials/footer';
+@import 'partials/header';
+@import 'partials/icon-launchpad';
+@import 'partials/launchpad';
+@import 'partials/map';
+@import 'partials/mma';
+@import 'partials/slider';
+@import 'partials/split-wysiwyg';
+@import 'partials/spotlight';
+@import 'partials/education';
+@import 'partials/wysiwyg';
